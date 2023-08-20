@@ -7,7 +7,7 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
-        additionalData: `@import "path/to/your/bootstrap.scss";`,
+        additionalData: `@import "./src/index.css;`,
       },
     },
   },
