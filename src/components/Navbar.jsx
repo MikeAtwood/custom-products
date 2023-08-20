@@ -1,9 +1,14 @@
-const Navbar = () => {
-    return (
-        <div>
-            <h2>Hello World</h2>
-        </div>
-    )
-}
+import { Nav } from 'react-bootstrap'
 
-export default Navbar
+const Navbar = () => {
+  return (
+    <div className='sidebar'>
+        <Nav defaultActiveKey='/home' className='flex-column'>
+            <Nav.Link href='/home'>Home</Nav.Link>
+            <Nav.Link href='/about'>About</Nav.Link>
+            <Nav.Link href='/contact'>Contact</Nav.Link>
+        </Nav>
+    </div>
+  )
+}
+export default Navbar;
