@@ -8,7 +8,6 @@ function App() {
 
   return (
     <>
-     <h1>Custom Products & Services</h1>
      <Navbar />
      <Router />
     </>

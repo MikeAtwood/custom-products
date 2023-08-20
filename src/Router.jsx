@@ -5,8 +5,8 @@ import About from './pages/About'
 const Router = () => {
     return (
             <Routes>
-                <Route path='/home' component={Home}></Route>
-                <Route path="/about" component={About}></Route>
+                <Route path='/home' element={<Home />}></Route>
+                <Route path="/about" element={<About />}></Route>
             </Routes>
     )
 }
