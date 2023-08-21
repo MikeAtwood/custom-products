@@ -7,7 +7,9 @@ const Contact = () => {
             <p>Email: info@customproductsandservices.com</p>
 
             <p>Address:</p>
-            <p></p>
+            <p>Custom Products & Services
+                2919 Central Avenue North East
+                Minneapolis, MN 55418</p>
         </div>
     )
 }
