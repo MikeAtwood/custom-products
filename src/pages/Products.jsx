@@ -16,6 +16,9 @@ const Products = () => {
                  removal attachments that mount in minutes without tools thanks to our exclusive Steiner Quick-Hitch™ System. 
                  A Steiner tractor is the best investment you can make in powered equipment!
             </p>
+            <p>Visit www.steinerturf.com for complete specifications.</p>
+
+            <p>Call us @ 612-782-6930 for pricing or schedule a demonstration.</p>
         </div>
     )
 }
