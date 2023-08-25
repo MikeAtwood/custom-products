@@ -1,6 +1,6 @@
 const Info = () => {
   return (
-    <div>
+    <div className="info">
       <p>
         {`Organic gardening is fun and easier than you think. We can provide bulk soil mixtures of black dirt, 
                 peat and manure in any ratio you like. The best design for a small backyard garden is to incorporate a 
