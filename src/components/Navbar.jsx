@@ -23,6 +23,9 @@ const Navbar = () => {
             <li>
                 <Link to='/projects'>Projects</Link>
             </li>
+            <li>
+                <Link to='/info'>Organic Gardening Info</Link>
+            </li>
         </Nav>
     </div>
   )
