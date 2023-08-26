@@ -2,7 +2,7 @@ const Services = () => {
     return (
         <div className="services">
             <h1>Services</h1>
-            <h2>We Offer a complete range of property services including:</h2>
+            <h2>We Offer a complete range of<br /> property services including:</h2>
             <ul>
                 <li>Snow Removal and Hauling</li>
                 <li>Sidewalk Snow Removal With Specialized Equipmen</li>

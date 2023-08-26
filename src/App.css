@@ -46,3 +46,16 @@ nav.navbar {
   padding: 60px;
   background-color: rgb(89, 193, 36);
 }
+
+.services h1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-right: 270px;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.services h2 {
+  font-style: italic;
+}
