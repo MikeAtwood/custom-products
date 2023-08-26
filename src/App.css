@@ -28,10 +28,15 @@ nav.navbar {
 }
 
 .about h1 {
-  font-size: 30px;
+  font-style: italic;
 }
 
 .about h2 {
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.about h3 {
   font-size: 20px;
   padding-top: 15px;
 }
@@ -51,9 +56,10 @@ nav.navbar {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  padding-right: 270px;
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
+  padding-right: 0px;
+  font-style: italic;
+  /* text-decoration: underline;
+  text-decoration-thickness: 2px; */
 }
 
 .services h2 {
