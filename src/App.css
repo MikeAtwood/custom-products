@@ -21,3 +21,17 @@ nav.navbar {
   z-index: 9999;
   transition:  0.32s ease-in-out;
 }
+
+.about {
+  padding-top: 40px;
+  padding: 60px;
+}
+
+.about h1 {
+  font-size: 30px;
+}
+
+.about h2 {
+  font-size: 20px;
+  padding-top: 15px;
+}
