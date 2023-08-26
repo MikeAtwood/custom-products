@@ -56,7 +56,7 @@ nav.navbar {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  padding-right: 0px;
+  padding-right: 250px;
   font-style: italic;
   /* text-decoration: underline;
   text-decoration-thickness: 2px; */
