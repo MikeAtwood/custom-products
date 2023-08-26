@@ -30,12 +30,19 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.sidebar {
+/* .sidebar {
   position: fixed;
   top: 0; 
   left: 0;
   height: 100vh;
   width: 200px;
+  background-color: #1d1e1e;
+} */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #1d1e1e;
 }
 
