@@ -74,6 +74,8 @@ nav.navbar {
   background-repeat: no-repeat;
   height: 800px;
   position: relative;
+  padding-right: 600px;
+  padding-top: 60px;
 }
 
 .products::before {
@@ -87,12 +89,21 @@ nav.navbar {
   z-index: 1;
 }
 
+.text-background {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 16px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
 .products p {
   position: relative;
   color: #fff;
-  padding-right: 700px;
+  padding-right: 10px;
   z-index: 2;
-  background-color: rgba(0, 0, 0, 0.6);
+  line-height: 2.0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 17px;
 }
 
 .products img {
