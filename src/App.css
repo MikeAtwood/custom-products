@@ -69,6 +69,10 @@ nav.navbar {
 
 .products {
   padding: 60px;
+  background-image: url('./assets/img/steiner-snow.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
 }
 
 .products p {

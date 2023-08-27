@@ -1,8 +1,10 @@
 import steinerlogo from '../assets/img/steiner.jpeg'
+import '../App.css'
 
 const Products = () => {
     return (
         <div className="products">
+            
             <img src={steinerlogo} alt='Steiner Logo'/>
             <p>
                 When there is work to be done, you’ll get more of it done with a Steiner tractor! No matter what the job, 
@@ -19,6 +21,7 @@ const Products = () => {
             <p>Visit www.steinerturf.com for complete specifications.</p>
 
             <p>Call us @ 612-782-6930 for pricing or schedule a demonstration.</p>
+            
         </div>
     )
 }
