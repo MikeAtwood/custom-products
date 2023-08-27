@@ -48,7 +48,8 @@ nav.navbar {
   justify-content: flex-end;
   align-items: flex-end;
   padding-top: 40px;
-  padding: 60px;
+  padding: 70px;
+  padding-right: 150px;
   background-color: rgb(89, 193, 36);
 }
 
