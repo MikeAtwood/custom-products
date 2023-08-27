@@ -3,6 +3,7 @@ import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar'
 import Home from './components/Home';
+import Hero from './components/Hero';
 import About from './components/About';
 import Contact from './components/Contact';
 import Products from './components/Products';
@@ -16,6 +17,7 @@ function App() {
     <>
      <Navbar />
      <Home />
+     <Hero />
      <About />
      <Services />
      <Products />
