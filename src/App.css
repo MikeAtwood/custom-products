@@ -66,3 +66,15 @@ nav.navbar {
 .services h2 {
   font-style: italic;
 }
+
+.products {
+  padding: 60px;
+}
+
+.products p {
+  padding-right: 700px;
+}
+
+.products img {
+  padding-bottom: 30px;
+}
