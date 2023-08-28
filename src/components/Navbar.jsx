@@ -1,4 +1,9 @@
+import React, { useEffect, useState } from 'react'
+
 const Navbar = () => {
+    const [navbarClass, setNavbarClass] = useState('')
+
+    
   return (
     <nav className="navbar navbar-expand-lg bg-light">
       <div className="container-fluid">
