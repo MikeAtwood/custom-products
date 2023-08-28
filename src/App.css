@@ -13,6 +13,14 @@ body {
   font-family: 'Centra', sans-serif !important;
 }
 
+.navbar {
+  transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: white;
+}
+
 nav.navbar {
   padding: 18px 0;
   position: fixed;

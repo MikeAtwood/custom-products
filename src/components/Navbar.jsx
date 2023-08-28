@@ -1,11 +1,25 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 
 const Navbar = () => {
     const [navbarClass, setNavbarClass] = useState('')
 
-    
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 0) {
+                setNavbarClass('scrolled')
+            } else {
+                setNavbarClass('')
+            }
+        }
+
+        window.addEventListener('scroll', handleScroll)
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll)
+        }
+    }, [])
   return (
-    <nav className="navbar navbar-expand-lg bg-light">
+    <nav className={`navbar navbar-expand-lg bg-light ${navbarClass}`}>
       <div className="container-fluid">
         <a className="navbar-brand" href="/home">
           Custom Products & Services
