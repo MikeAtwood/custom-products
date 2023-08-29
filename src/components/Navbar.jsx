@@ -19,8 +19,8 @@ const Navbar = () => {
         }
     }, [])
   return (
-    <nav className={`navbar navbar-expand-lg bg-light ${navbarClass}`}>
-    {/* <nav className={`navbar navbar-expand-lg bg-transparent ${navbarClass}`}> */}
+    // <nav className={`navbar navbar-expand-lg bg-light ${navbarClass}`}>
+    <nav className={`navbar navbar-expand-lg bg-transparent ${navbarClass}`}> 
       <div className="container-fluid">
         <a className="navbar-brand" href="/home">
           Custom Products & Services
