@@ -15,11 +15,11 @@ body {
 
 .navbar {
   transition: background-color 0.3s ease;
-  background-color: transparent;
+  background-color: transparent !important;
 }
 
 .navbar.scrolled {
-  background-color: white;
+  background-color: white !important;
 }
 
 nav.navbar {
