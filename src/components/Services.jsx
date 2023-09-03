@@ -1,8 +1,27 @@
 import { Carousel } from "react-responsive-carousel"
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Summer from '../assets/img/grass.jpeg'
+import Fall from '../assets/img/leaves.jpeg'
+import Winter from '../assets/img/snow.jpeg'
+import Spring from '../assets/img/spring.jpeg'
 
 const Services = () => {
     return (
         <div className="services">
+            <Carousel className="carousel-img">
+                <div>
+                    <img src={Summer} alt="Summer Grass" />
+                </div>
+                <div>
+                    <img src={Fall} alt="Fall Leaves" />
+                </div>
+                <div>
+                    <img src={Winter} alt="Winter Snow" />
+                </div>
+                <div>
+                    <img src={Spring} alt="Spring Time" />
+                </div>
+            </Carousel>
             <h1>Services</h1>
             <h2>We Offer a complete range of<br /> property services including:</h2>
             <ul>
