@@ -95,6 +95,8 @@ nav.navbar {
 }
 
 .services {
+  position: relative;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -103,7 +105,6 @@ nav.navbar {
   padding-top: 40px;
   padding: 70px;
   padding-right: 150px;
-  background-color: rgb(89, 193, 36);
 }
 
 .services h1 {
@@ -118,6 +119,35 @@ nav.navbar {
 
 .services h2 {
   font-style: italic;
+}
+
+.carousel {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ z-index: -1;
+}
+
+.carousel-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.services img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-container {
+  position: relative;
+  z-index: 1;
 }
 
 .products {
