@@ -10,7 +10,7 @@ const Services = () => {
   return (
     <div className="services">
       <div className="carousel-container">
-        <Carousel className="carousel-img">
+        <Carousel className="carousel-img" interval={10000} infiniteLoop autoPlay>
           <div>
             <img src={Summer} alt="Summer Grass" />
           </div>
