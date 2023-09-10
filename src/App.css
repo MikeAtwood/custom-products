@@ -18,10 +18,11 @@ body {
   background-color: transparent !important;
   font-family: Arial, Helvetica, sans-serif;
   font-weight:bold;
+  color: #fff !important;
 }
 
 .navbar.scrolled {
-  background-color: white !important;
+  background-color: #121212 !important;
 }
 
 nav.navbar {
@@ -91,6 +92,7 @@ nav.navbar {
 .about h2 {
   font-size: 25px;
   font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .about h3 {

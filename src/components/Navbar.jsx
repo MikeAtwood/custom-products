@@ -22,7 +22,7 @@ const Navbar = () => {
     // <nav className={`navbar navbar-expand-lg bg-light ${navbarClass}`}>
     <nav className={`navbar navbar-expand-lg bg-transparent ${navbarClass}`}> 
       <div className="container-fluid">
-        <a className="navbar-brand" href="/home">
+        <a className="navbar-brand text-white" href="/home">
           Custom Products & Services
         </a>
         <button
@@ -38,13 +38,13 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ms-auto">
-            <a className="nav-link active" aria-current="page" href="/home">Home</a>
-            <a className="nav-link" href="/about">About Us</a>
-            <a className="nav-link" href="/contact">Contact</a>
-            <a className="nav-link" href="/products">Products</a>
-            <a className="nav-link" href="/about">Services</a>
-            <a className="nav-link" href="/about">Projects</a>
-            <a className="nav-link" href="/about">Organic Gardening Info</a>
+            <a className="nav-link active text-white" aria-current="page" href="/home">Home</a>
+            <a className="nav-link text-white" href="/about">About Us</a>
+            <a className="nav-link text-white" href="/contact">Contact</a>
+            <a className="nav-link text-white" href="/products">Products</a>
+            <a className="nav-link text-white" href="/about">Services</a>
+            <a className="nav-link text-white" href="/about">Projects</a>
+            <a className="nav-link text-white" href="/about">Organic Gardening Info</a>
           </div>
         </div>
       </div>
