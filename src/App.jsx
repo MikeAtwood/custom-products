@@ -10,6 +10,7 @@ import Products from './components/Products';
 import Services from './components/Services';
 import Projects from './components/Projects';
 import Info from './components/Info';
+import Footer from './components/Footer'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
      <Services />
      <Products />
      <Contact />
+     <Footer />
      <Projects />
      <Info />
     </>
