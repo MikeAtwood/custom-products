@@ -200,3 +200,19 @@ nav.navbar {
 .products img {
   padding-bottom: 30px;
 }
+
+.contact {
+  display: flex;
+  height: 500px;
+  max-height: 600px;
+  margin-bottom: 50px;
+}
+
+.left-content {
+  flex: 1;
+}
+
+.right-content {
+  flex: 1;
+  background-color: aqua;
+}
