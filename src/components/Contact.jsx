@@ -1,4 +1,5 @@
 import '../App.css'
+import locationImg from '../assets/img/location.png'
 
 const Contact = () => {
     return (
@@ -15,7 +16,7 @@ const Contact = () => {
                     Minneapolis, MN 55418</p>
             </div>
             <div className='right-content'>
-
+                <img src={locationImg} />
             </div>
            
         </div>
