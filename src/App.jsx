@@ -6,26 +6,28 @@ import Home from './components/Home';
 import Hero from './components/Hero';
 import About from './components/About';
 import Contact from './components/Contact';
-import Products from './components/Products';
+// import Products from './components/Products';
 import Services from './components/Services';
-import Projects from './components/Projects';
-import Info from './components/Info';
+// import Projects from './components/Projects';
+// import Info from './components/Info';
 import Footer from './components/Footer'
+import Router from './Router.jsx'
 
 function App() {
 
   return (
     <>
+     <Router />
      <Navbar />
      <Home />
      <Hero />
      <About />
      <Services />
-     <Products />
+     {/* <Products /> */}
      <Contact />
      <Footer />
-     <Projects />
-     <Info />
+     {/* <Projects /> */}
+     {/* <Info /> */}
     </>
   )
 }
