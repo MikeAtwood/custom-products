@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import Logo from '../assets/img/logo.png'
 
 const Navbar = () => {
     const [navbarClass, setNavbarClass] = useState('')
@@ -23,7 +24,7 @@ const Navbar = () => {
     <nav className={`navbar navbar-expand-lg bg-transparent ${navbarClass}`}> 
       <div className="container-fluid">
         <a className="navbar-brand text-white" href="/home">
-          Custom Products & Services
+          <img src={Logo} />
         </a>
         <button
           className="navbar-toggler"

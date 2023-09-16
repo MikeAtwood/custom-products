@@ -1,11 +1,12 @@
 import '../App.css'
 import locationImg from '../assets/img/location.png'
+import 'animate.css'
 
 const Contact = () => {
     return (
         <div className="contact">
             <div className="left-content">
-                <h2>Contact Us</h2>
+                <h2 className="animate__animated animate__bounce">Contact Us</h2>
                 <p>Phone: 612-782-6930</p>
                 <p>Fax: 612-782-6923</p>
                 <p>Email: info@customproductsandservices.com</p>
