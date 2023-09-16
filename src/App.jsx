@@ -18,8 +18,8 @@ function App() {
   return (
     <>
      <Router />
-     <Navbar />
-     <Home />
+      <Navbar />
+      <Home />
      <Hero />
      <About />
      <Services />
