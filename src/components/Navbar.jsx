@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import Logo from '../assets/img/logo.png'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Navbar = () => {
     const [navbarClass, setNavbarClass] = useState('')
