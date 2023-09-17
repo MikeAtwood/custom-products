@@ -1,7 +1,7 @@
 import './App.css'
 import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './components/Navbar'
+import NavBar from './components/Navbar'
 import Home from './components/Home';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -11,14 +11,13 @@ import Services from './components/Services';
 // import Projects from './components/Projects';
 // import Info from './components/Info';
 import Footer from './components/Footer'
-import Router from './Router.jsx'
 
 function App() {
 
   return (
     <div className='main-container'>
-     <Router />
-      <Navbar />
+     
+      <NavBar />
       <Home />
      <Hero />
      <About />

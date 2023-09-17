@@ -4,7 +4,7 @@ import 'animate.css'
 
 const Contact = () => {
     return (
-        <div className="contact">
+        <section className="contact" id='contact'>
             <div className="left-content">
                 <h2 className="animate__animated animate__bounce">Contact Us</h2>
                 <p>Phone: 612-782-6930</p>
@@ -20,7 +20,7 @@ const Contact = () => {
                 <img src={locationImg} />
             </div>
            
-        </div>
+        </section>
     )
 }
 

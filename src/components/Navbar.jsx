@@ -1,57 +1,58 @@
 import { useEffect, useState } from 'react'
 import Logo from '../assets/img/logo.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Navbar, Container, Nav } from 'react-bootstrap'
+// import { BrowserRouter as Router } from 'react-router-dom';
 
-const Navbar = () => {
-    const [navbarClass, setNavbarClass] = useState('')
+const NavBar = () => {
+  const [activeLink, setActiveLink] = useState("home")
+    const [scrolled, setScrolled] = useState(false)
 
     useEffect(() => {
-        const handleScroll = () => {
-            if (window.scrollY > 0) {
-                setNavbarClass('scrolled')
+        const onScroll = () => {
+            if (window.scrollY > 50) {
+                setScrolled(true)
             } else {
-                setNavbarClass('')
+                setScrolled(false)
             }
         }
 
-        window.addEventListener('scroll', handleScroll)
+        window.addEventListener('scroll', onScroll)
 
         return () => {
-            window.removeEventListener('scroll', handleScroll)
+            window.removeEventListener('scroll', onScroll)
         }
     }, [])
+
+    const onUpdateActiveLink = (value) => {
+      setActiveLink(value);
+  }
   return (
-    // <nav className={`navbar navbar-expand-lg bg-light ${navbarClass}`}>
-    <nav className={`navbar navbar-expand-lg bg-transparent ${navbarClass}`}> 
-      <div className="container-fluid">
-        <a className="navbar-brand text-white" href="/home">
-          <img src={Logo} />
-        </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav ms-auto">
-            <a className="nav-link active text-white" aria-current="page" href="/home">Home</a>
-            <a className="nav-link text-white" href="/about">About Us</a>
-            <a className="nav-link text-white" href="/contact">Contact</a>
-            <a className="nav-link text-white" href="/products">Products</a>
-            <a className="nav-link text-white" href="/about">Services</a>
-            <a className="nav-link text-white" href="/about">Projects</a>
-            <a className="nav-link text-white" href="/about">Organic Gardening Info</a>
-          </div>
-        </div>
-      </div>
-    </nav>
+    // <Router>
+      <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
+        <Container className="container-fluid">
+          <Navbar.Brand href="#home">
+            <img src={Logo} alt='Logo'/>
+          </Navbar.Brand> 
+          <Navbar.Toggle aria-controls="basic-navbar-nav">
+              <span className="navbar-toggler-icon"></span>
+          </Navbar.Toggle>
+          <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#home" className={activeLink === "home" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("home")}>Home</Nav.Link>
+            <Nav.Link href="#about" className={activeLink === "about" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("home")}>About</Nav.Link>
+            <Nav.Link href="#services" className={activeLink === "services" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("home")}>Services</Nav.Link>
+            <Nav.Link href="#contact" className={activeLink === "contact" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("home")}>Contact</Nav.Link>
+            {/* <Nav.Link href="#skills" className={activeLink === "skills" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("skills")}>Skills</Nav.Link>
+            <Nav.Link href="#projects" className={activeLink === "project" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("projects")}>Projects</Nav.Link> */}
+          </Nav>
+          </Navbar.Collapse>
+          
+        </Container>
+      </Navbar>
+    // </Router>
+    
 
   );
 };
-export default Navbar;
+export default NavBar;

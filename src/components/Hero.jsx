@@ -1,10 +1,11 @@
 import '../App.css'
 
+
 const Hero = () => {
     return (
-        <div className='hero-container'>
+        <section className='hero-container' id="home">
             <h1>Custom Products & Services</h1>
-        </div>
+        </section>
     )
 }
 
