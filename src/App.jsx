@@ -16,7 +16,7 @@ import Router from './Router.jsx'
 function App() {
 
   return (
-    <>
+    <div className='main-container'>
      <Router />
       <Navbar />
       <Home />
@@ -28,7 +28,7 @@ function App() {
      <Footer />
      {/* <Projects /> */}
      {/* <Info /> */}
-    </>
+    </div>
   )
 }
 
