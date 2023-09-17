@@ -8,7 +8,7 @@ import '../App.css'
 
 const Services = () => {
   return (
-    <div className="services">
+    <div className="services" id="services">
       <div className="carousel-container">
         <Carousel className="carousel-img" interval={10000} infiniteLoop autoPlay>
           <div>

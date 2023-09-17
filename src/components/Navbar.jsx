@@ -10,7 +10,7 @@ const NavBar = () => {
 
     useEffect(() => {
         const onScroll = () => {
-            if (window.scrollY > 50) {
+            if (window.scrollY > 0) {
                 setScrolled(true)
             } else {
                 setScrolled(false)
@@ -30,7 +30,7 @@ const NavBar = () => {
   return (
     // <Router>
       <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
-        <Container className="container-fluid">
+        <Container className="navbar container-fluid">
           <Navbar.Brand href="#home">
             <img src={Logo} alt='Logo'/>
           </Navbar.Brand> 
@@ -38,13 +38,11 @@ const NavBar = () => {
               <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home" className={activeLink === "home" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("home")}>Home</Nav.Link>
-            <Nav.Link href="#about" className={activeLink === "about" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("home")}>About</Nav.Link>
-            <Nav.Link href="#services" className={activeLink === "services" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("home")}>Services</Nav.Link>
-            <Nav.Link href="#contact" className={activeLink === "contact" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("home")}>Contact</Nav.Link>
-            {/* <Nav.Link href="#skills" className={activeLink === "skills" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("skills")}>Skills</Nav.Link>
-            <Nav.Link href="#projects" className={activeLink === "project" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("projects")}>Projects</Nav.Link> */}
+          <Nav className="ms-auto">
+            <Nav.Link href="#home" className={"text-light"} onClick={() => onUpdateActiveLink("home")}>Home</Nav.Link>
+            <Nav.Link href="#about" className={"text-light"} onClick={() => onUpdateActiveLink("about")}>About</Nav.Link>
+            <Nav.Link href="#services" className={"text-white"} onClick={() => onUpdateActiveLink("services")}>Services</Nav.Link>
+            <Nav.Link href="#contact" className={"text-white"} onClick={() => onUpdateActiveLink("contact")}>Contact</Nav.Link>
           </Nav>
           </Navbar.Collapse>
           
