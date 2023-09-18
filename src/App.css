@@ -247,7 +247,20 @@ nav.navbar {
 .footer-container {
   display: flex;
   align-items: center;
-  position: center;
+  position: relative;
   height: 400px;
   width: 100%;
+  padding: 70px;
+}
+
+.footer-container img {
+  padding-right: 15px;
+}
+
+.footer-line {
+  position: absolute;
+  left: 4%;
+  right: 11%;
+  bottom: 20%;
+  border-top: 1px solid white;
 }
