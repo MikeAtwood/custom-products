@@ -264,3 +264,8 @@ nav.navbar {
   bottom: 20%;
   border-top: 1px solid white;
 }
+
+.footer-underline {
+  position: absolute;
+  bottom: 10%;
+}
