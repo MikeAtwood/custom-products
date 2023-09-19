@@ -15,18 +15,14 @@ import Footer from './components/Footer'
 function App() {
 
   return (
-    <div className='main-container'>
-     
+    <div className='App'>
       <NavBar />
       <Home />
-     <Hero />
-     <About />
-     <Services />
-     {/* <Products /> */}
-     <Contact />
-     <Footer />
-     {/* <Projects /> */}
-     {/* <Info /> */}
+      <Hero />
+      <About />
+      <Services />
+      <Contact />
+      <Footer />
     </div>
   )
 }

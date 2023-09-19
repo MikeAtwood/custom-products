@@ -18,6 +18,13 @@ body {
   display: flexbox;
 }
 
+@media (min-width:1700px) {
+	main .container {
+		max-width: 100%;
+		padding: 0 150px;
+	}
+}
+
 .navbar {
   transition: background-color 0.3s ease;
   background-color: transparent !important;
@@ -43,6 +50,10 @@ nav.navbar {
   display: flex;
   justify-content: flex-end;
   padding-right: 35px;
+}
+
+.navbar .navbar-collapse .dropdown-menu {
+  background-color: #fff;
 }
 
 .hero-container {
@@ -269,3 +280,4 @@ nav.navbar {
   position: absolute;
   bottom: 10%;
 }
+

@@ -2,10 +2,11 @@ import { useEffect, useState } from 'react'
 import Logo from '../assets/img/logo.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Container, Nav } from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import { BrowserRouter as Router } from 'react-router-dom';
 
 const NavBar = () => {
-  const [activeLink, setActiveLink] = useState("home")
+  const [setActiveLink] = useState("home")
     const [scrolled, setScrolled] = useState(false)
 
     useEffect(() => {
@@ -37,7 +38,7 @@ const NavBar = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav">
               <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Collapse id="basic-navbar-nav bg-light">
           <Nav className="me-auto">
             <Nav.Link href="#home" className={"text-light"} onClick={() => onUpdateActiveLink("home")}>Home</Nav.Link>
             <Nav.Link href="#about" className={"text-light"} onClick={() => onUpdateActiveLink("about")}>About</Nav.Link>
