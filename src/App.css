@@ -14,7 +14,7 @@ body {
   font-family: 'Centra', sans-serif !important;
 }
 
-.main-container {
+.App {
   display: flexbox;
 }
 
@@ -61,11 +61,18 @@ nav.navbar {
   align-items: center;
   position: relative;
   padding-top: 600px;
-  background-image: url('./assets/img/hero-img.jpeg');
+  /* background-image: url('./assets/img/hero-img.jpeg'); */
   background-size: cover;
   background-repeat: no-repeat;
   height: auto;
   max-height: 200px;
+}
+
+.hero-container img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-bottom: 610px;
 }
 
 .hero-container::before {
@@ -264,6 +271,7 @@ nav.navbar {
   padding: 70px;
 }
 
+
 .footer-container img {
   padding-right: 15px;
 }
@@ -281,3 +289,14 @@ nav.navbar {
   bottom: 10%;
 }
 
+@media (max-width: 768px) {
+  .App {
+    display: flex-box;
+    max-width: 100%;
+    font-size: 60px;
+  }
+  .navbar {
+    font-size: 60px;
+  }
+ 
+}
