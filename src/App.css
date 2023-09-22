@@ -294,18 +294,46 @@ nav.navbar {
     max-width: 100%;
     font-size: 60px;
     overflow-x: hidden;
+    background-color: #1a1919;
   }
   .navbar {
-    font-size: 60px;
+    position: relative;
+    font-size: 30px;
+  }
+
+  .navbar.scrolled {
+    background-color: #1a1919 !important;
+  }
+  .navbar .nav-link {
+    padding-left: 15px;
+  }
+  .navbar img {
+    padding-left: 15px;
   }
   .hero-container {
     position:relative;
+    top: -0px;
+    background-color: #1a1919;
+    background-image: url('./assets/img/leaves.jpeg')
   }
   .hero-container img {
     display: none;
+    width: 100%;
+    height: 120vh;
+    object-fit: cover;
   }
+  /* .hero-container h1 {
+    font-size: 30px;
+    top: 103px;
+  } */
   .hero-container h1 {
-    font-size: 50px;
+    top: 100px;
+    left: -70px;
+    font-size: 40px;
   }
- 
+  .about {
+    position: relative;
+    display: flexbox;
+    font-size: 30px;
+  }
 }
