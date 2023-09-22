@@ -333,7 +333,14 @@ nav.navbar {
   }
   .about {
     position: relative;
-    display: flexbox;
-    font-size: 30px;
+    display: contents;
+    font-size: 20px;
+    margin: 10px;
+  }
+  .services {
+    position: relative;
+    display:contents;
+    top: 200px;
+    font-size: 14px;
   }
 }
