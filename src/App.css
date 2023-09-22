@@ -343,4 +343,37 @@ nav.navbar {
     top: 200px;
     font-size: 14px;
   }
+  .services .carousel-img {
+    display: none;
+  }
+
+  .contact {
+    display: contents;
+    position: relative;
+  }
+  .contact img {
+    width: 300%;
+    height: auto;
+    max-width: 600px;
+    position: relative;
+    align-items: center;
+    top: -100px;
+    right: 20px;
+  }
+  .footer-container {
+    position: relative;
+    display: contents;
+    font-size: 20px;
+  }
+
+  .footer-underline {
+    display: contents;
+    position: relative;
+    bottom: 110px;
+  }
+
+  .footer-line {
+    display: contents;
+    position: relative;
+  }
 }
