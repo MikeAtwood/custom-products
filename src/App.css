@@ -310,8 +310,8 @@ nav.navbar {
   .navbar img {
     padding-left: 15px;
   }
-  .dropdown-button {
-    background-color: #fff;
+  .custom-icon {
+    color: #fff;
   }
   
   .hero-container {
