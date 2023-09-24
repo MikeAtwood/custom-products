@@ -310,6 +310,10 @@ nav.navbar {
   .navbar img {
     padding-left: 15px;
   }
+  .dropdown-button {
+    background-color: #fff;
+  }
+  
   .hero-container {
     position:relative;
     top: -0px;
@@ -345,6 +349,7 @@ nav.navbar {
     margin: 20px;
     padding: 10px;
     background-color: rgb(33, 32, 32);
+    
   }
   .services {
     position: relative;
