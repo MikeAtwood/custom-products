@@ -340,6 +340,7 @@ nav.navbar {
     display: contents;
     font-size: 20px;
     margin: 10px;
+    
   }
   .about-wrapper {
     display: flex;
@@ -347,9 +348,14 @@ nav.navbar {
     justify-content: center;
     align-items: center;
     margin: 20px;
-    padding: 10px;
+    padding: 20px;
     background-color: rgb(33, 32, 32);
-    
+  }
+  .about h1 {
+    font-size: 40px;
+    padding: 15px;
+    font-style: oblique;
+    font-weight: bold;
   }
   .services {
     position: relative;
