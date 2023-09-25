@@ -7,7 +7,7 @@ const Hero = () => {
         <section className='hero-container' id="home">
             
             <img src={heroImg} />
-            <h1>Custom Products & Services</h1>
+            <h1 className='animate__animated animate__backInRight'>Custom Products & Services</h1>
         </section>
     )
 }
