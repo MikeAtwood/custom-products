@@ -17,13 +17,6 @@ body {
   display: flexbox;
 }
 
-@media (min-width:1700px) {
-	main .container {
-		max-width: 100%;
-		padding: 0 150px;
-	}
-}
-
 .navbar {
   display: flex;
   transition: background-color 0.3s ease;
@@ -31,19 +24,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight:bold;
   color: #fff !important;
+  padding: 5px 0;
 }
 
 .navbar.scrolled {
   background-color: #121212 !important;
 }
 
-/* .navbar h1 {
-  color: #fff;
-  font-size: 35px;
-} */
-
 nav.navbar {
-  padding: 0px 0;
+  padding: 1px 0;
   position: fixed;
   width: 100%;
   top: 0;
@@ -132,25 +121,7 @@ nav.navbar {
   font-size: 35px;
 } */
 
-nav.navbar {
-  padding: 18px 0;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 9999;
-  transition:  0.32s ease-in-out;
-}
 
-.navbar-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-right: 35px;
-}
-
-.navbar .navbar-collapse .dropdown-menu {
-  background-color: #fff;
-}
 .about {
   padding-top: 40px;
   padding: 60px;
@@ -366,7 +337,6 @@ nav.navbar {
   .hero-container {
     position:relative;
     height: 100vh;
-    max-height: 100vh;
     background-color: #1a1919;
     background-image: url('./assets/img/leaves.jpeg')
   }
@@ -381,9 +351,12 @@ nav.navbar {
     top: 103px;
   } */
   .hero-container h1 {
-    top: 10px;
-    left: -70px;
-    font-size: 50px;
+    top: 100px;
+    left: 10px;
+    font-size: 45px;
+  }
+  .hero-container p {
+    display: none;
   }
   .about {
     position: relative;
