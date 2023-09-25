@@ -32,14 +32,15 @@ const NavBar = () => {
     // <Router>
       <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
         <Container className="navbar container-fluid">
-          <Navbar.Brand href="#home">
-            <img src={Logo} alt='Logo'/>
+          <Navbar.Brand href="#home" className="d-flex align-items-center">
+            <img src={Logo} alt="Logo" className="mr-2" />
+            {/* <h1 className="m-2">CUSTOM PRODUCTS</h1> */}
           </Navbar.Brand> 
           <Navbar.Toggle aria-controls="basic-navbar-nav">
               <span className="navbar-toggler-icon navbar-dark"></span>
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="mx-auto">
             <Nav.Link href="#home" className={"text-light"} onClick={() => onUpdateActiveLink("home")}>Home</Nav.Link>
             <Nav.Link href="#about" className={"text-light"} onClick={() => onUpdateActiveLink("about")}>About</Nav.Link>
             <Nav.Link href="#services" className={"text-white"} onClick={() => onUpdateActiveLink("services")}>Services</Nav.Link>
