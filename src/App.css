@@ -7,7 +7,6 @@
 body {
   font-weight: 400;
   overflow-x: hidden;
-  position: relative;
   background-color: #121212 !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
@@ -53,24 +52,18 @@ nav.navbar {
 
 .hero-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   position: relative;
   padding-top: 600px;
-  /* background-image: url('./assets/img/hero-img.jpeg'); */
+  background-image: url("../src/assets/img/hero2.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   height: auto;
-  max-height: 200px;
+  text-align: center;
 }
 
-.hero-container img {
-  position: relative;
-  width: 100%;
-  height: auto;
-  top: -95px;
-  padding-bottom: 610px;
-  z-index: 1;
-}
 
 .hero-container::before {
   content: "";
@@ -84,32 +77,26 @@ nav.navbar {
 }
 
 .hero-container h1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 30%;
-  left: 12%;
+  position: relative;
   color: #fff;
   z-index: 2;
   font-size: 90px;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: bolder;
   font-style: italic;
+  margin-bottom: 10px ;
+  top: -300px;
 }
 
 .hero-container p {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 46%;
-  left: 22%;
+  position: relative;
   color: #fff;
   z-index: 3;
   font-size: 35px;
   font-family: 'Arial Narrow Bold', sans-serif;
   font-weight: lighter;
+  margin-top: 0;
+  top: -300px;
 }
 
 .navbar.scrolled {
@@ -123,9 +110,8 @@ nav.navbar {
 
 
 .about {
-  padding-top: 40px;
-  padding: 60px;
-  padding-right: 600px;
+  padding: 90px;
+  padding-top: 100px;
   height: 500px;
 }
 
@@ -153,16 +139,13 @@ nav.navbar {
   flex-wrap: wrap;
   justify-content: flex-end;
   align-items: flex-end;
-  padding-top: 40px;
-  padding: 70px;
-  padding-right: 150px;
+  margin-top: 200px;
 }
 
 .services h1 {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  padding-right: 250px;
   font-style: italic;
   /* text-decoration: underline;
   text-decoration-thickness: 2px; */
@@ -200,7 +183,7 @@ nav.navbar {
   position: relative;
   z-index: 1;
 }
-
+/* 
 .products {
   padding: 60px;
   background-image: url('./assets/img/steiner-snow.jpeg');
@@ -242,7 +225,7 @@ nav.navbar {
 
 .products img {
   padding-bottom: 30px;
-}
+} */
 
 .contact {
   display: flex;
@@ -335,10 +318,14 @@ nav.navbar {
   }
   
   .hero-container {
+    display: flex;
+    align-items: center;
     position:relative;
-    height: 100vh;
+    background-size: cover;
+    height: auto;
     background-color: #1a1919;
-    background-image: url('./assets/img/leaves.jpeg')
+    background-image: url('./assets/img/leaves.jpeg');
+    max-height: 200px;
   }
   .hero-container img {
     display: none;
@@ -362,7 +349,7 @@ nav.navbar {
     position: relative;
     display: contents;
     font-size: 20px;
-    margin: 10px;
+    margin: 20px;
     
   }
   .about-wrapper {
