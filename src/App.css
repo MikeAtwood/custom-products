@@ -120,7 +120,7 @@ nav.navbar {
   z-index: 3;
   font-size: 35px;
   font-family: 'Arial Narrow Bold', sans-serif;
-  font-weight: ;
+  font-weight: lighter;
 }
 
 .navbar.scrolled {
