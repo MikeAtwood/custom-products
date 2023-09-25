@@ -338,8 +338,8 @@ nav.navbar {
     top: 103px;
   } */
   .hero-container h1 {
-    top: 100px;
-    left: 10px;
+    position: relative;
+    top: -300px;
     font-size: 45px;
   }
   .hero-container p {
