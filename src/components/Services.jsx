@@ -27,7 +27,7 @@ const Services = () => {
         <div className="text-container">
           <h1>Services</h1>
           <h2>
-            We Offer a complete range of
+            We offer a complete range of
             <br /> property services including:
           </h2>
           <ul>
