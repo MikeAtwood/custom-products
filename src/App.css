@@ -132,27 +132,51 @@ nav.navbar {
 }
 
 .services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   overflow: hidden;
-  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-end;
-  align-items: flex-end;
   margin-top: 200px;
 }
 
 .services h1 {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  font-style: italic;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  margin-bottom: 10px;
   /* text-decoration: underline;
   text-decoration-thickness: 2px; */
 }
 
 .services h2 {
+  display: flex;
+  justify-content: center;
   font-style: italic;
+  margin-bottom: 60px;
+  font-weight: lighter;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(2px);
+  padding: 60px;
+  margin: 60px;
+  border-radius: 15px;
+}
+
+.text-container ul {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
 }
 
 .carousel {

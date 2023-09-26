@@ -39,6 +39,8 @@ const Services = () => {
             <li>Landscape Installation</li>
             <li>Pruning</li>
             <li>Aeration</li>
+          </ul>
+          <ul>
             <li>Sod and Seed</li>
             <li>Holiday Lighting and Decorations</li>
             <li>Graffiti Abatement</li>
