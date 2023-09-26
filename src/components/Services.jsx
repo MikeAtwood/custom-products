@@ -32,7 +32,7 @@ const Services = () => {
           </h2>
           <ul>
             <li>Snow Removal and Hauling</li>
-            <li>Sidewalk Snow Removal With Specialized Equipmen</li>
+            <li>Sidewalk Snow Removal With Specialized Equipment</li>
             <li>De-icing</li>
             <li>Weekly Mowing</li>
             <li>Weed and Pest Control</li>
