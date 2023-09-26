@@ -11,6 +11,9 @@ const Hero = () => {
             {/* <img src={heroImg} /> */}
             <h1 className='animate__animated animate__backInDown'>Custom Products & Services</h1>
             <p className='animate__animated animate__backInDown'>Serving the greater Minneapolis area since 19XX</p>
+            <a href="mailto:" className='email-button'>
+                Email Us!
+            </a>
         </section>
     )
 }
