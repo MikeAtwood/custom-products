@@ -43,7 +43,7 @@ nav.navbar {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-right: 35px;
+  padding-right: 60px;
 }
 
 .navbar .navbar-collapse .dropdown-menu {
@@ -263,7 +263,7 @@ nav.navbar {
 
 .left-content {
   flex: 1;
-  margin-left: 40px;
+  margin-left: 130px;
 }
 
 .right-content {
