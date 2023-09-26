@@ -13,7 +13,7 @@ const About = () => {
                     </h2>
                     <h3>
                         Location:
-                        2919 Central Avenue NE
+                        2648 34th Ave South
                         Minneapolis, MN 55418
                     </h3>
                     <h3>
