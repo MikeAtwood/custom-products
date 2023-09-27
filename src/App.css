@@ -129,7 +129,6 @@ nav.navbar {
 .about {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   position: relative;
   padding: 90px;
   padding-top: 100px;
