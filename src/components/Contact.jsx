@@ -7,7 +7,7 @@ const Contact = () => {
         <section className="contact" id='contact'>
             <div className="left-content">
                 <h2 className="animate__animated animate__bounce">Contact Us</h2>
-                <a href="callto:612-782-6930">Phone: 612-782-6930</a>
+                <a href="tel:+6127826930">Phone: 612-782-6930</a>
                 <p>Fax: 612-782-6923</p>
                 <a href="mailto:info@customproductsandservices.com">Email: info@customproductsandservices.com</a>
 
