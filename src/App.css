@@ -319,6 +319,12 @@ nav.navbar {
   border-radius: 50%;
 }
 
+.address-container {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-decoration: underline;
+}
+
 /*--------------------------------------------------------- FOOTER ---------------------------------------------------------*/
 .footer-container {
   display: flex;
