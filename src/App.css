@@ -386,7 +386,7 @@ nav.navbar {
     background-size: cover;
     height: auto;
     background-color: #1a1919;
-    background-image: url('./assets/img/leaves.jpeg');
+    background-image: url('./assets/img/hero2.jpeg');
     max-height: 200px;
   }
   .hero-container img {
@@ -394,6 +394,9 @@ nav.navbar {
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+  .hero-container a {
+    font-size: 15px;
   }
   /* .hero-container h1 {
     font-size: 30px;
@@ -444,9 +447,9 @@ nav.navbar {
     position: relative;
   }
   .contact img {
-    width: 300%;
+    width: 100%;
     height: auto;
-    max-width: 600px;
+    max-width: 100%;
     position: relative;
     align-items: center;
     top: -100px;
