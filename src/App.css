@@ -429,9 +429,9 @@ nav.navbar {
   .services {
     position: relative;
     display: block;
-    top: 200px;
     font-size: 14px;
     margin: -40px;
+    height: 100vh;
   }
 
   .text-container {
@@ -446,19 +446,25 @@ nav.navbar {
   }
   /*--------------------------------------------------------- CONTACT ---------------------------------------------------------*/
   .contact {
-    display: contents;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
   }
   .contact img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    position: relative;
-    align-items: center;
-    top: -100px;
+   display: none;
+  }
+  .contact h2 {
+    margin-left: 15px;
   }
   .left-content {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-left: -20px;
   }
   /*--------------------------------------------------------- FOOTER ---------------------------------------------------------*/
   .footer-container {
