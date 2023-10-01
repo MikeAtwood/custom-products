@@ -365,6 +365,7 @@ nav.navbar {
   .navbar {
     position: relative;
     font-size: 30px;
+    background-color: #1a1919;
   }
   .navbar.scrolled {
     background-color: #1a1919 !important;
@@ -377,6 +378,11 @@ nav.navbar {
   }
   .custom-icon {
     color: #fff;
+  }
+  .navbar .mx-auto {
+    position: relative;
+    background-color: #1a1919;
+    height: 100vh;
   }
   
   .hero-container {
@@ -442,6 +448,10 @@ nav.navbar {
   }
   .services .carousel-img {
     display: none;
+  }
+
+  .text-container ul {
+    display: contents;
   }
   /*--------------------------------------------------------- CONTACT ---------------------------------------------------------*/
   .contact {

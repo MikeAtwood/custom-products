@@ -6,8 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import { BrowserRouter as Router } from 'react-router-dom';
 
 const NavBar = () => {
-  const [setActiveLink] = useState("home")
+  const [activeLink, setActiveLink] = useState("home")
     const [scrolled, setScrolled] = useState(false)
+    const [isDropdownClicked, setIsDropdownClicked] = useState(false)
 
     useEffect(() => {
         const onScroll = () => {
@@ -27,22 +28,26 @@ const NavBar = () => {
 
     const onUpdateActiveLink = (value) => {
       setActiveLink(value);
-  }
+    }
+
+    const onDropdownClick = () => {
+      setIsDropdownClicked(!isDropdownClicked)
+    }
+
   return (
     // <Router>
       <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
         <Container className="navbar container-fluid">
           <Navbar.Brand href="#home" className="d-flex align-items-center">
             <img src={Logo} alt="Logo" className="mr-2" />
-            {/* <h1 className="m-2">CUSTOM PRODUCTS</h1> */}
           </Navbar.Brand> 
-          <Navbar.Toggle aria-controls="basic-navbar-nav">
-              <span className="navbar-toggler-icon navbar-dark"></span>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={onDropdownClick}>
+              <span className={`navbar-toggler-icon navbar-dark ${isDropdownClicked ? 'clicked' : ''}`}></span>
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
-            <Nav.Link href="#home" className={"text-light"} onClick={() => onUpdateActiveLink("home")}>Home</Nav.Link>
-            <Nav.Link href="#about" className={"text-light"} onClick={() => onUpdateActiveLink("about")}>About</Nav.Link>
+            <Nav.Link href="#home" className={`text-light ${activeLink === 'home' ? 'active' : ''}`} onClick={() => onUpdateActiveLink("home")}>Home</Nav.Link>
+            <Nav.Link href="#about" className={`text-light ${activeLink === 'about' ? 'active' : ''}`} onClick={() => onUpdateActiveLink("about")}>About</Nav.Link>
             <Nav.Link href="#services" className={"text-white"} onClick={() => onUpdateActiveLink("services")}>Services</Nav.Link>
             <Nav.Link href="#contact" className={"text-white"} onClick={() => onUpdateActiveLink("contact")}>Contact</Nav.Link>
           </Nav>
