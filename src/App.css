@@ -365,13 +365,13 @@ nav.navbar {
   .navbar {
     position: relative;
     font-size: 30px;
-    background-color: #1a1919;
+    background-color: #1a1919 !important;
   }
   .navbar.scrolled {
     background-color: #1a1919 !important;
   }
   .navbar .nav-link {
-    padding-left: 20px;
+    padding-left: 50px;
   }
   .navbar img {
     padding-left: 15px;
@@ -379,12 +379,7 @@ nav.navbar {
   .custom-icon {
     color: #fff;
   }
-  .navbar .mx-auto {
-    position: relative;
-    background-color: #1a1919;
-    height: 100vh;
-  }
-  
+  /*--------------------------------------------------------- HERO ---------------------------------------------------------*/
   .hero-container {
     display: flex;
     align-items: center;
@@ -399,10 +394,6 @@ nav.navbar {
   .hero-container a {
     font-size: 15px;
   }
-  /* .hero-container h1 {
-    font-size: 30px;
-    top: 103px;
-  } */
   .hero-container h1 {
     position: relative;
     top: -300px;
