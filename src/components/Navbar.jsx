@@ -7,8 +7,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home")
-    const [scrolled, setScrolled] = useState(false)
-    const [isDropdownClicked, setIsDropdownClicked] = useState(false)
+  const [scrolled, setScrolled] = useState(false)
+  const [isDropdownClicked, setIsDropdownClicked] = useState(false)
 
     useEffect(() => {
         const onScroll = () => {
