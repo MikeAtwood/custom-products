@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 import Logo from '../assets/img/logo.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navbar, Container, Nav } from 'react-bootstrap'
+import { Navbar, Container, Nav, NavDropdown, NavItem } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import { BrowserRouter as Router } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home")
@@ -50,6 +50,11 @@ const NavBar = () => {
             <Nav.Link href="#about" className={`text-light ${activeLink === 'about' ? 'active' : ''}`} onClick={() => onUpdateActiveLink("about")}>About</Nav.Link>
             <Nav.Link href="#services" className={"text-white"} onClick={() => onUpdateActiveLink("services")}>Services</Nav.Link>
             <Nav.Link href="#contact" className={"text-white"} onClick={() => onUpdateActiveLink("contact")}>Contact</Nav.Link>
+            <NavDropdown title="More" className="more-dropdown">
+              <NavItem>
+                <Link to="/gallery">Gallery</Link>
+              </NavItem>
+            </NavDropdown>
           </Nav>
           </Navbar.Collapse>
           

@@ -51,6 +51,10 @@ nav.navbar {
   background-color: #fff;
 }
 
+.more-dropdown {
+  color: #fff !important;
+}
+
 /*--------------------------------------------------------- HERO ---------------------------------------------------------*/
 .hero-container {
   display: flex;
