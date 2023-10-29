@@ -3,12 +3,14 @@ import Logo from '../assets/img/logo.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Container, Nav, NavDropdown, NavItem } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+
 
 const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home")
   const [scrolled, setScrolled] = useState(false)
   const [isDropdownClicked, setIsDropdownClicked] = useState(false)
+  const navigateTo = useNavigate()
 
     useEffect(() => {
         const onScroll = () => {
@@ -34,6 +36,10 @@ const NavBar = () => {
       setIsDropdownClicked(!isDropdownClicked)
     }
 
+    const navigateToGallery = () => {
+      navigateTo('/gallery')
+    }
+
   return (
     // <Router>
       <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
@@ -52,7 +58,7 @@ const NavBar = () => {
             <Nav.Link href="#contact" className={"text-white"} onClick={() => onUpdateActiveLink("contact")}>Contact</Nav.Link>
             <NavDropdown title="More" className="more-dropdown">
               <NavItem>
-                <Link to="/gallery">Gallery</Link>
+                <Link to="./pages/Gallery" onClick={navigateToGallery}>Gallery</Link>
               </NavItem>
             </NavDropdown>
           </Nav>
