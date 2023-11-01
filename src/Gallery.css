@@ -1,0 +1,10 @@
+.gallery-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #231e1ee4;
+}
+
+h1 {
+    padding-top: 200px;
+}

@@ -39,7 +39,7 @@ const NavBar = () => {
     
       <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
         <Container className="navbar container-fluid">
-          <Navbar.Brand href="#home" className="d-flex align-items-center">
+          <Navbar.Brand href="/" className="d-flex align-items-center">
             <img src={Logo} alt="Logo" className="mr-2" />
           </Navbar.Brand> 
           <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={onDropdownClick}>
@@ -47,11 +47,11 @@ const NavBar = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto">
-              <Nav.Link href="#home" className={`text-light ${activeLink === 'home' ? 'active' : ''}`} onClick={() => onUpdateActiveLink("home")}>Home</Nav.Link>
-              <Nav.Link href="#about" className={`text-light ${activeLink === 'about' ? 'active' : ''}`} onClick={() => onUpdateActiveLink("about")}>About</Nav.Link>
-              <Nav.Link href="#services" className={"text-white"} onClick={() => onUpdateActiveLink("services")}>Services</Nav.Link>
-              <Nav.Link href="#contact" className={"text-white"} onClick={() => onUpdateActiveLink("contact")}>Contact</Nav.Link>
-              <Nav.Link href="/gallery" className={"text-white"} onClick={() => onUpdateActiveLink("contact")}>Gallery</Nav.Link>
+              <Nav.Link href="/" className={`text-light ${activeLink === 'home' ? 'active' : ''}`} onClick={() => onUpdateActiveLink("home")}>Home</Nav.Link>
+              <Nav.Link href="/#about" className={`text-light ${activeLink === 'about' ? 'active' : ''}`} onClick={() => onUpdateActiveLink("about")}>About</Nav.Link>
+              <Nav.Link href="/#services" className={"text-white"} onClick={() => onUpdateActiveLink("services")}>Services</Nav.Link>
+              <Nav.Link href="/#contact" className={"text-white"} onClick={() => onUpdateActiveLink("contact")}>Contact</Nav.Link>
+              <Nav.Link href="/gallery" className={"text-white"} onClick={() => onUpdateActiveLink("gallery")}>Gallery</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
