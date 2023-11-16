@@ -3,6 +3,8 @@
     justify-content: center;
     align-items: center;
     background-color: #231e1ee4;
+    overflow-y: auto;
+    height: 1500px;
 }
 
 h1 {
