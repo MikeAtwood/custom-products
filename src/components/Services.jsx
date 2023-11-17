@@ -25,31 +25,34 @@ const Services = () => {
           </div>
         </Carousel>
         <div className="text-container">
-          <h1>Services</h1>
-          <h2>
-            We offer a complete range of
-            <br /> property services including:
-          </h2>
-          <ul>
-            <li>Snow Removal and Hauling</li>
-            <li>Sidewalk Snow Removal With Specialized Equipment</li>
-            <li>De-icing</li>
-            <li>Weekly Mowing</li>
-            <li>Weed and Pest Control</li>
-            <li>Landscape Installation</li>
-            <li>Pruning</li>
-            <li>Aeration</li>
-          </ul>
-          <ul>
-            <li>Sod and Seed</li>
-            <li>Holiday Lighting and Decorations</li>
-            <li>Graffiti Abatement</li>
-            <li>Tree Planting</li>
-            <li>Annual and Perennial Planting</li>
-            <li>Lot Sweeping</li>
-            <li>Organic Gardens</li>
-            <li>Garden Planting and Maintenance</li>
-          </ul>
+          <div className="main-service">
+            <h1>Services</h1>
+            <h2>
+              We offer a complete range of
+              <br /> property services including:
+            </h2>
+            <ul>
+              <li>Snow Removal and Hauling</li>
+              <li>Sidewalk Snow Removal With Specialized Equipment</li>
+              <li>De-icing</li>
+              <li>Weekly Mowing</li>
+              <li>Weed and Pest Control</li>
+              <li>Landscape Installation</li>
+              <li>Pruning</li>
+              <li>Aeration</li>
+            </ul>
+            <ul>
+              <li>Sod and Seed</li>
+              <li>Holiday Lighting and Decorations</li>
+              <li>Graffiti Abatement</li>
+              <li>Tree Planting</li>
+              <li>Annual and Perennial Planting</li>
+              <li>Lot Sweeping</li>
+              <li>Organic Gardens</li>
+              <li>Garden Planting and Maintenance</li>
+            </ul>
+          </div>
+          
         </div>
       </div>
     </div>
