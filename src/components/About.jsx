@@ -4,8 +4,8 @@ const About = () => {
     return (
         <div className="about-wrapper">
             <div className="about" id="about">
-                <h1>About Us</h1>
                 <div className="left-column">
+                    <h1>About Us</h1>
                     <h2>    
                         Our company is based on the belief that our customers needs are of the utmost importance. Our entire team 
                         is committed to meeting those needs. As a result, a high percentage of our business is from repeat customers and 

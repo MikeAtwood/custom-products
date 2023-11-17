@@ -138,7 +138,11 @@ nav.navbar {
   padding: 90px;
   padding-top: 100px;
   background-color: #054736;
-  height: 600px;
+  height: 700px;
+}
+.left-column {
+  position: relative;
+  justify-content: center;
 }
 
 .about h1 {
