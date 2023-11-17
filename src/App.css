@@ -142,7 +142,7 @@ nav.navbar {
 }
 .left-column {
   position: relative;
-  justify-content: center;
+  bottom: 80px;
 }
 
 .about h1 {
