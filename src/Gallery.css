@@ -4,9 +4,33 @@
     align-items: center;
     background-color: #231e1ee4;
     overflow-y: auto;
-    height: 1500px;
+    height: 500px;
 }
 
 h1 {
     padding-top: 200px;
 }
+
+.collectionImages {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.collectionImages > img {
+    height: 300px;
+    cursor: pointer;
+    position: relative;
+    flex: 1;
+}
+
+.collectionImages img {
+    object-fit: cover;
+    vertical-align: middle;
+    border-radius: 5px;
+    position: relative;
+
+}
+
