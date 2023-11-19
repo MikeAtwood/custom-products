@@ -7,6 +7,7 @@ const Gallery = () => {
         <>
             <div className="gallery-main">
                 <h1>Gallery</h1>
+                
             </div>
             <Collection />
             <Footer />
