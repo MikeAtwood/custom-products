@@ -11,10 +11,19 @@ const Contact = () => {
                 <p>Fax: 612-782-6923</p>
                 <a href="mailto:info@customproductsandservices.com">Email: info@customproductsandservices.com</a>
 
-                <p className='address-container'>Address:</p>
-                <p>Custom Products & Services
-                    2919 Central Avenue North East
-                    Minneapolis, MN 55418</p>
+                <p className='address-container'></p>
+                
+                    <p>
+                        Location:
+                        2648 34th Ave South
+                        Minneapolis, MN 55418
+                    </p>
+                    <p>
+                        Hours:
+                        Mon - Fri: 9AM - 5PM
+                        Sat: Closed         
+                        Sun: Closed
+                    </p>
             </div>
             <div className='right-content'>
                 <img src={locationImg} />

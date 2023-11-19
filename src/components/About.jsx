@@ -11,17 +11,6 @@ const About = () => {
                         is committed to meeting those needs. As a result, a high percentage of our business is from repeat customers and 
                         referrals. We would welcome the opportunity to earn your trust and deliver you the best service in the industry.
                     </h2>
-                    <h3>
-                        Location:
-                        2648 34th Ave South
-                        Minneapolis, MN 55418
-                    </h3>
-                    <h3>
-                        Hours:
-                        Mon - Fri: 9AM - 5PM
-                        Sat: Closed         
-                        Sun: Closed
-                    </h3>
                 </div>
                 <div className="right-column">
                     {/* <img src={treeImg} /> */}
