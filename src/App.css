@@ -198,7 +198,7 @@ nav.navbar {
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(2px);
-  padding: 6px;
+  padding: 25px;
   margin: 60px;
   border-radius: 15px;
 }
@@ -206,8 +206,6 @@ nav.navbar {
 .main-service {
   display: block;
   position: relative;
-  top: -100px;
-
 }
 
 .text-container ul {
