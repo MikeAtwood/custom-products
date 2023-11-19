@@ -1,4 +1,4 @@
-// import treeImg from '../assets/img/hand-tree.jpg'
+import '../App.css'
 
 const About = () => {
     return (
