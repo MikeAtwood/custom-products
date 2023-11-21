@@ -133,8 +133,8 @@ nav.navbar {
 /*--------------------------------------------------------- ABOUT ---------------------------------------------------------*/
 .about {
   display: flex;
-  flex-direction: column;
   position: relative;
+  justify-content: center;
   padding: 90px;
   padding-top: 100px;
   background-color: #054736;
@@ -160,6 +160,12 @@ nav.navbar {
   position: relative;
   font-size: 20px;
   top: 30px;
+}
+
+.about-container {
+  position: relative;
+  align-items: center;
+  justify-content: center;
 }
 
 /*--------------------------------------------------------- SERVICES ---------------------------------------------------------*/
