@@ -12,9 +12,6 @@ const About = () => {
                         referrals. We would welcome the opportunity to earn your trust and deliver you the best service in the industry.
                     </h2>
                 </div>
-                <div className="right-column">
-                    {/* <img src={treeImg} /> */}
-                </div>
             </div>
         </div>
     )

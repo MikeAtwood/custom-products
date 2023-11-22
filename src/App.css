@@ -131,10 +131,11 @@ nav.navbar {
   background-color: #121212 !important;
 }
 /*--------------------------------------------------------- ABOUT ---------------------------------------------------------*/
-.about {
+.about-wrapper {
   display: flex;
   position: relative;
   justify-content: center;
+  
   padding: 90px;
   padding-top: 100px;
   background-color: #054736;
@@ -149,12 +150,15 @@ nav.navbar {
 .about h1 {
   font-style: italic;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-bottom: 25px;
 }
 
 .about h2 {
   font-size: 25px;
   font-weight: 200;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
 .about h3 {
