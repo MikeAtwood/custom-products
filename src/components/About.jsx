@@ -16,9 +16,25 @@ const About = () => {
                     </h2>
                 </div>
                 <div className='about-img'>
-                    <img src={about1} alt='aboutImageOne'/>
-                    <img src={about2} alt='aboutImageTwo'/>
-                    <img src={about3} alt='aboutImageThree'/>
+                    <div className='image-container'>
+                        <img src={about1} alt='aboutImageOne'/>
+                        <div className='image-text'>
+                            <p>Where we work</p>
+                        </div>
+                    </div>
+                    <div className='image-container'>
+                        <img src={about2} alt='aboutImageTwo'/>
+                        <div className='image-text'>
+                            <p>something something</p>
+                        </div>
+                    </div>
+                    <div className='image-container'>
+                        <img src={about3} alt='aboutImageThree'/>
+                        <div className='image-text'>
+                            <p>Giving back to the community</p>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
