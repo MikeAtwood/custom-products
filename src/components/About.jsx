@@ -34,7 +34,6 @@ const About = () => {
                             <p>Giving back to the community</p>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </div>
