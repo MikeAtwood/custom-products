@@ -19,7 +19,8 @@ const About = () => {
                     <div className='image-container'>
                         <img src={about1} alt='aboutImageOne'/>
                         <div className='image-text'>
-                            <p>Where we work</p>
+                            <h2>Where we work</h2>
+                            <p>asdfasdfasdfasdf asdffdsa fdssdf aasdffdsaa aehkhlkgh</p>
                         </div>
                     </div>
                     <div className='image-container'>
