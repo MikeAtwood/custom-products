@@ -488,6 +488,14 @@ nav.navbar {
     padding-top: 80px;
   }
 
+  .image-container h2, p{
+    display: none;
+  }
+  
+  .image-container img {
+    display: none;
+  }
+
   /*--------------------------------------------------------- SERVICES ---------------------------------------------------------*/
 
   .services {
