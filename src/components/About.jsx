@@ -20,7 +20,7 @@ const About = () => {
                         <img src={about1} alt='aboutImageOne'/>
                         <div className='image-text'>
                             <h2>Where we work</h2>
-                            <p>asdfasdfasdfasdf asdffdsa fdssdf aasdffdsaa aehkhlkgh</p>
+                            <p> Based in the greater Minneapolis area, leveraging our expertise and serving clients within this vibrant community</p>
                         </div>
                     </div>
                     <div className='image-container'>
@@ -34,7 +34,7 @@ const About = () => {
                         <img src={about3} alt='aboutImageThree'/>
                         <div className='image-text'>
                             <h2>Giving back to the community</h2>
-                            <p>asdfasdfasdfasdf asdffdsa fdssdf aasdffdsaa aehkhlkgh</p>
+                            <p> We are deeply committed to giving back to the community we serve. As a public service company specializing in landscaping and street cleaning, we take pride in enhancing the beauty and cleanliness of our city. </p>
                         </div>
                     </div>
                 </div>
