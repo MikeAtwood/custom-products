@@ -13,11 +13,28 @@ import dummy10 from '../assets/galleryImg/dummy10.jpeg'
 import dummy11 from '../assets/galleryImg/dummy11.jpeg'
 
 const Collection = () => {
-    const [isHover, setIsHovered] = useState(false)
+    const [isHovered, setIsHovered] = useState(false)
+
+    const handleMouseEnter = () => {
+        setIsHovered(true)
+    }
+
+    const handleMouseLeave = () => {
+        setIsHovered(false)
+    }
     
     return (
-        <div className='collectionImages'>
+        <div className='collectionImages'
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}        
+        >
+    
             <img src={dummy1} />
+            {isHovered && (
+                <div className='overlay'>
+                    <p>Beautiful mulch landscaping</p>
+                </div>
+            )} 
             <img src={dummy2} />
             <img src={dummy3} />
             <img src={dummy4} />
