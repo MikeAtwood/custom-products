@@ -1,4 +1,5 @@
 import '../../src/Gallery.css'
+import { useState } from 'react'
 import dummy1 from '../assets/galleryImg/dummy1.jpeg'
 import dummy2 from '../assets/galleryImg/dummy2.jpeg'
 import dummy3 from '../assets/galleryImg/dummy3.jpeg'
@@ -12,6 +13,8 @@ import dummy10 from '../assets/galleryImg/dummy10.jpeg'
 import dummy11 from '../assets/galleryImg/dummy11.jpeg'
 
 const Collection = () => {
+    const [isHover, setIsHovered] = useState(false)
+    
     return (
         <div className='collectionImages'>
             <img src={dummy1} />
