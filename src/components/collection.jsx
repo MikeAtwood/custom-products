@@ -37,6 +37,7 @@ const Collection = () => {
                         <p>Beautiful mulch landscaping</p>
                     </div>
                 )} 
+            </div>    
                 <img src={dummy2} />
                 <img src={dummy3} />
                 <img src={dummy4} />
@@ -47,7 +48,7 @@ const Collection = () => {
                 <img src={dummy8} />
                 <img src={dummy9} />
                 <img src={dummy10} />
-            </div>
+            
         </div>
     )
 }

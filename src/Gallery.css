@@ -14,7 +14,8 @@ h1 {
 .collectionImages {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: center;
     position: relative;
     gap: 10px;
 }
@@ -50,7 +51,12 @@ h1 {
     z-index: 2;
 }
 
-.overlay p {
-    position: relative;
-    z-index: 1;
+.imageContainer {
+    height: 300px;
+    cursor: pointer;
+    flex: 1;
 }
+.collectionImages > .imageContainer:first-child > img {
+  height: 300px;
+}
+    
