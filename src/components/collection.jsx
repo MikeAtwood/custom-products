@@ -24,28 +24,30 @@ const Collection = () => {
     }
     
     return (
-        <div className='collectionImages'
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}        
-        >
+        <div className='collectionImages'>
+            <div 
+                className='imageContainer'
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}        
+            >
     
-            <img src={dummy1} />
-            {isHovered && (
-                <div className='overlay'>
-                    <p>Beautiful mulch landscaping</p>
-                </div>
-            )} 
-            <img src={dummy2} />
-            <img src={dummy3} />
-            <img src={dummy4} />
-            <img src={dummy5} />
-            <img src={dummy11} />
-            <img src={dummy6} />
-            <img src={dummy7} />
-            <img src={dummy8} />
-            <img src={dummy9} />
-            <img src={dummy10} />
-            
+                <img src={dummy1} />
+                {isHovered && (
+                    <div className='overlay'>
+                        <p>Beautiful mulch landscaping</p>
+                    </div>
+                )} 
+                <img src={dummy2} />
+                <img src={dummy3} />
+                <img src={dummy4} />
+                <img src={dummy5} />
+                <img src={dummy11} />
+                <img src={dummy6} />
+                <img src={dummy7} />
+                <img src={dummy8} />
+                <img src={dummy9} />
+                <img src={dummy10} />
+            </div>
         </div>
     )
 }
