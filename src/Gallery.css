@@ -11,10 +11,6 @@ h1 {
     padding-top: 0px;
 }
 
-.collectionImages{
-    padding: px;
-} 
-
 .imageContainer {
     display: flex;
     flex-wrap: wrap;
@@ -30,14 +26,7 @@ h1 {
     cursor: pointer;
     position: relative;
     flex: 1;
-}
-
-.imageContainer img {
-    object-fit: cover;
-    vertical-align: middle;
     border-radius: 5px;
-    position: relative;
-
 }
 
 .overlay {
@@ -54,4 +43,5 @@ h1 {
     font-size: 18px;
     text-align: center;
     z-index: 2;
+    border-radius: 5px;
 }
