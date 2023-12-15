@@ -560,9 +560,9 @@ nav.navbar {
   }
 
   .footer-underline {
-    display: contents;
+    display: flex;
     position: relative;
-    bottom: 110px;
+    justify-content: flex-end;
   }
 
   .footer-line {
@@ -575,5 +575,14 @@ nav.navbar {
     display: flex;
     position: relative;
     right: 40px;
+  }
+
+  .footer-underline p {
+    display: flex;
+    font-size: 12px;
+    position: relative;
+    left: 40px;
+    text-align: end;
+    top: 10px;
   }
 }
