@@ -441,12 +441,11 @@ nav.navbar {
     padding: 20px;
     background-color: rgb(33, 32, 32);
     border-radius: 15px;
+    max-height: 550px;
   }
   .about h1 {
-    font-size: 40px;
+    font-size: 50px;
     padding: 5px;
-    font-style: oblique;
-    font-weight: bold;
     padding-top: 80px;
   }
 
