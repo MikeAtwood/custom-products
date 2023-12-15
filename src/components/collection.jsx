@@ -30,15 +30,15 @@ const Collection = () => {
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}        
             >
-    
-                <img src={dummy1} />
-                {isHovered && (
-                    <div className='overlay'>
-                        <p>Beautiful mulch landscaping</p>
-                    </div>
-                )} 
-            </div>    
-                <img src={dummy2} />
+            <div className='imageContainer'>
+                <img src={dummy1} alt='Image 1'/>
+                {isHovered && <div className='overlay'>Beautiful mulch landscaping</div>} 
+            </div> 
+            <div className='imageContainer'>
+                <img src={dummy2} alt='Image 2'/>
+                {isHovered && <div className='overlay'>Something nice to look at</div>}
+            </div>   
+                
                 <img src={dummy3} />
                 <img src={dummy4} />
                 <img src={dummy5} />
@@ -48,7 +48,7 @@ const Collection = () => {
                 <img src={dummy8} />
                 <img src={dummy9} />
                 <img src={dummy10} />
-            
+            </div>
         </div>
     )
 }

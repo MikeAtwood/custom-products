@@ -11,7 +11,7 @@ h1 {
     padding-top: 0px;
 }
 
-.collectionImages {
+.collectionImages, .imageContainer {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -27,7 +27,7 @@ h1 {
     flex: 1;
 }
 
-.collectionImages img {
+.imageContainer img {
     object-fit: cover;
     vertical-align: middle;
     border-radius: 5px;
@@ -50,13 +50,3 @@ h1 {
     text-align: center;
     z-index: 2;
 }
-
-.imageContainer {
-    height: 300px;
-    cursor: pointer;
-    flex: 1;
-}
-.collectionImages > .imageContainer:first-child > img {
-  height: 300px;
-}
-    
