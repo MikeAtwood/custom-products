@@ -296,50 +296,7 @@ nav.navbar {
   position: relative;
   z-index: 1;
 }
-/*--------------------------------------------------------- PRODUCTS ---------------------------------------------------------*/
-/* 
-.products {
-  padding: 60px;
-  background-image: url('./assets/img/steiner-snow.jpeg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 800px;
-  position: relative;
-  padding-right: 600px;
-  padding-top: 60px;
-}
 
-.products::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.1);
-  z-index: 1;
-}
-
-.text-background {
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 16px;
-  margin: 0 auto;
-  border-radius: 10px;
-}
-
-.products p {
-  position: relative;
-  color: #fff;
-  padding-right: 10px;
-  z-index: 2;
-  line-height: 2.0;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 17px;
-}
-
-.products img {
-  padding-bottom: 30px;
-} */
 
 /*--------------------------------------------------------- CONTACT ---------------------------------------------------------*/
 .contact {
