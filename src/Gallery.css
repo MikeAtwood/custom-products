@@ -20,7 +20,7 @@ h1 {
     gap: 10px;
 }
 
-.collectionImages > img {
+.imageContainer > img {
     height: 300px;
     cursor: pointer;
     position: relative;

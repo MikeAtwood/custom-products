@@ -30,24 +30,44 @@ const Collection = () => {
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}        
             >
-            <div className='imageContainer'>
-                <img src={dummy1} alt='Image 1'/>
-                {isHovered && <div className='overlay'>Beautiful mulch landscaping</div>} 
-            </div> 
-            <div className='imageContainer'>
-                <img src={dummy2} alt='Image 2'/>
-                {isHovered && <div className='overlay'>Something nice to look at</div>}
-            </div>   
-                
-                <img src={dummy3} />
-                <img src={dummy4} />
-                <img src={dummy5} />
-                <img src={dummy11} />
-                <img src={dummy6} />
-                <img src={dummy7} />
-                <img src={dummy8} />
-                <img src={dummy9} />
-                <img src={dummy10} />
+                <div className='imageContainer'>
+                    <img src={dummy1} alt='Image 1'/>
+                    {isHovered && <div className='overlay'>Beautiful mulch landscaping</div>} 
+                </div> 
+                <div className='imageContainer'>
+                    <img src={dummy2} alt='Image 2'/>
+                    {isHovered && <div className='overlay'>Something nice to look at</div>}
+                </div>   
+                <div className='imageContainer'>
+                    <img src={dummy3} alt='Image 3'/>
+                    {isHovered && <div className='overlay'>Something nice to look at</div>}
+                </div>   
+                <div className='imageContainer'>
+                    <img src={dummy4} alt='Image 4'/>
+                    {isHovered && <div className='overlay'>Something nice to look at</div>}
+                </div>   
+                <div className='imageContainer'>
+                    <img src={dummy5} alt='Image 5'/>
+                    {isHovered && <div className='overlay'>Something nice to look at</div>}
+                </div>   <div className='imageContainer'>
+                    <img src={dummy11} alt='Image 11'/>
+                    {isHovered && <div className='overlay'>Something nice to look at</div>}
+                </div>   <div className='imageContainer'>
+                    <img src={dummy6} alt='Image 6'/>
+                    {isHovered && <div className='overlay'>Something nice to look at</div>}
+                </div>   <div className='imageContainer'>
+                    <img src={dummy7} alt='Image 7'/>
+                    {isHovered && <div className='overlay'>Something nice to look at</div>}
+                </div>   <div className='imageContainer'>
+                    <img src={dummy8} alt='Image 8'/>
+                    {isHovered && <div className='overlay'>Something nice to look at</div>}
+                </div>   <div className='imageContainer'>
+                    <img src={dummy9} alt='Image 9'/>
+                    {isHovered && <div className='overlay'>Something nice to look at</div>}
+                </div>   <div className='imageContainer'>
+                    <img src={dummy10} alt='Image 10'/>
+                    {isHovered && <div className='overlay'>Something nice to look at</div>}
+                </div> 
             </div>
         </div>
     )
