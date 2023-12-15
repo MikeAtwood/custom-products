@@ -566,6 +566,8 @@ nav.navbar {
   }
 
   .footer-container img {
-    left: 100px !important;
+    display: flex;
+    position: relative;
+    right: 40px;
   }
 }
