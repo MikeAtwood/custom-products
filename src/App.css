@@ -54,24 +54,24 @@ nav.navbar {
 }
 
 .text-glow:hover {
-  color: #00ff00;
+  color: #fafafa;
   animation: glowing 1.5s infinite;
 }
 
 @keyframes glowing {
   0% {
-    color: #00ff00;
-    text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 20px #00ff00;
+    color: #fafafa;
+    text-shadow: 0 0 5px #fafafa, 0 0 10px #fafafa, 0 0 20px #fafafa;
   }
 
   50% {
-    color: #00ff00;
+    color: #fafafa;
     text-shadow: none;
   }
 
   100% {
-    color: #00ff00;
-    text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 20px #00ff00;
+    color: #fafafa;
+    text-shadow: 0 0 5px #fafafa, 0 0 10px #fafafa, 0 0 20px #fafafa;
   }
 }
 
