@@ -242,6 +242,11 @@ nav.navbar {
   justify-content: center;
 }
 
+.image-text h2 {
+  position: relative;
+  top: 15px;
+}
+
 /*--------------------------------------------------------- SERVICES ---------------------------------------------------------*/
 .services {
   display: flex;
