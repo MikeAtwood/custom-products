@@ -473,7 +473,7 @@ nav.navbar {
     padding: 20px;
     background-color: rgb(33, 32, 32);
     border-radius: 15px;
-    max-height: 550px;
+    max-height: 1250px;
   }
   .about h1 {
     font-size: 50px;
@@ -481,14 +481,59 @@ nav.navbar {
     padding-top: 80px;
   }
 
-  .image-container h2, p{
-    display: none;
+  
+  .about-img {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 10px;
   }
   
-  .image-container img {
-    display: none;
+  .about-img .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
   }
+  
+  .about-img > img {
+    height: 300px;
+    height: 300px;
+    cursor: pointer;
+    position: relative;
+    object-fit: cover;
+    flex: 1;
+  }
+  
+  .about-img img {
+    object-fit: cover;
+    vertical-align: middle;
+    border-radius: 5px;
+    position: relative;
+  } 
+  
+    .image-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      background-color: #0f6a534c;
+    }
+    
+    .image-container img {
+      width: 100%; 
+      height: auto; 
+    }
+  
+    .image-container p {
+      text-align: center;
+      padding: 5px;
+      font-size: 5px;
+    }
 
+    .image-container h2 {
+      font-size: 7px;
+    }
   /*--------------------------------------------------------- SERVICES ---------------------------------------------------------*/
 
   .services {
