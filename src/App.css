@@ -471,7 +471,7 @@ nav.navbar {
     align-items: center;
     margin: 20px;
     padding: 20px;
-    background-color: rgb(33, 32, 32);
+    /* background-color: rgb(33, 32, 32); */
     border-radius: 15px;
     max-height: 1240px;
   }
@@ -485,7 +485,7 @@ nav.navbar {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 105px;
+    width: 115px;
   }
   
   .about-img > img {
