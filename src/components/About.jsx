@@ -27,7 +27,7 @@ const About = () => {
                         <img src={about2} alt='aboutImageTwo'/>
                         <div className='image-text'>
                             <h2>something something</h2>
-                            <p>asdfasdfasdfasdf asdffdsa fdssdf aasdffdsaa aehkhlkgh asdfa sdfasdfasdf asdffdsa fdssdf aasdffdsaa aehkhlkgh asdfasdfa sd fasdf asdffdsa fdssdf aasdffdsaa aehkhlkgh</p>
+                            <p>asdfasdfasdfasdf asdffdsa fdssf aasdffdsaa aehkhlkgh asdfa sdfasdfasdf asdffdsa fdssdf aasdffdsaa aehkhlkgh asdfasdfa sd fasdf asdffdsa fdssdf aasdffdsaa aehkhlkgh</p>
                         </div>
                     </div>
                     <div className='image-container'>
