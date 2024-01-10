@@ -3,7 +3,7 @@ import NavBar from "./components/Navbar";
 import Home from "./pages/Home";
 import Gallery from "./pages/Gallery";
 
-function App() {
+const App = () => {
   return (
     <div className='App'>
       <Router>
