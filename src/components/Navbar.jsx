@@ -47,11 +47,11 @@ const NavBar = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto">
-              <Nav.Link href="/" className={`text-light ${activeLink === 'home' ? 'active' : ''} text-glow`} onClick={() => onUpdateActiveLink("home")}>Home</Nav.Link>
-              <Nav.Link href="/#about" className={"text-white text-glow"} onClick={() => onUpdateActiveLink("about")}>About</Nav.Link>
-              <Nav.Link href="/#services" className={"text-white text-glow"} onClick={() => onUpdateActiveLink("services")}>Services</Nav.Link>
-              <Nav.Link href="/#contact" className={"text-white text-glow"} onClick={() => onUpdateActiveLink("contact")}>Contact</Nav.Link>
-              <Nav.Link href="/gallery" className={"text-white text-glow"} onClick={() => onUpdateActiveLink("gallery")}>Gallery</Nav.Link>
+              <Nav.Link href="/" className={`text-glow ${activeLink === 'home' ? 'active' : ''} `} onClick={() => onUpdateActiveLink("home")}>Home</Nav.Link>
+              <Nav.Link href="/#about" className={"text-glow"} onClick={() => onUpdateActiveLink("about")}>About</Nav.Link>
+              <Nav.Link href="/#services" className={"text-glow"} onClick={() => onUpdateActiveLink("services")}>Services</Nav.Link>
+              <Nav.Link href="/#contact" className={"text-glow"} onClick={() => onUpdateActiveLink("contact")}>Contact</Nav.Link>
+              <Nav.Link href="/gallery" className={"text-glow"} onClick={() => onUpdateActiveLink("gallery")}>Gallery</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
