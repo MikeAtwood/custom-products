@@ -117,7 +117,7 @@ nav.navbar {
 
 .email-button:hover {
   box-shadow: 0 0 0 3px #ff7708;
-  opacity: 0,8;
+  opacity: 0.8;
 }
 
 .navbar.scrolled {
@@ -126,6 +126,8 @@ nav.navbar {
 
 .hero-img {
   position: sticky;
+  top: 0;
+  z-index: -1;
 }
 
 
