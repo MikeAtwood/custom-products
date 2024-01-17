@@ -76,26 +76,10 @@ nav.navbar {
   align-items: center;
   justify-content: center;
   position: relative;
-  padding-top: 600px;
-  background-image: url("../src/assets/img/hero2.jpeg");
-  /* background-image: url("../src/assets/img/hero-mn.jpeg"); */
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: auto;
   text-align: center;
+  max-height: 850px;
 }
 
-
-.hero-container::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.1);
-  z-index: 1;
-}
 
 .hero-container h1 {
   position: relative;
@@ -106,7 +90,6 @@ nav.navbar {
   font-weight: bolder;
   font-style: italic;
   margin-bottom: 10px ;
-  top: -300px;
 }
 
 .hero-container p {
@@ -117,7 +100,6 @@ nav.navbar {
   font-family: 'Arial Narrow Bold', sans-serif;
   font-weight: lighter;
   margin-top: 0;
-  top: -300px;
 }
 
 .email-button {
@@ -128,7 +110,6 @@ nav.navbar {
   text-decoration: none;
   border: 2px solid #ff951b;
   border-radius: 5px;
-  top: -200px;
   font-weight: bold;
   transition: box-shadow 0.3s;
   z-index: 1;
@@ -139,11 +120,20 @@ nav.navbar {
   opacity: 0,8;
 }
 
-
-
 .navbar.scrolled {
   background-color: #121212 !important;
 }
+
+.hero-img {
+  position: sticky;
+}
+
+
+.hero-info {
+  position: relative;;
+  top: -600px;
+}
+
 /*--------------------------------------------------------- ABOUT ---------------------------------------------------------*/
 .about-wrapper {
   display: flex;
@@ -153,7 +143,6 @@ nav.navbar {
   padding: 90px;
   background-color: #054736;
   /* background-color: #231e1ee4; */
-  height: 800px;
 }
 .left-column {
   position: relative;
@@ -422,13 +411,11 @@ nav.navbar {
   }
   /*--------------------------------------------------------- HERO ---------------------------------------------------------*/
   .hero-container {
-    display: flex;
     align-items: center;
     position:relative;
     background-size: cover;
     height: auto;
-    background-color: #1a1919;
-    background-image: url('./assets/img/hero2.jpeg');
+    /* background-image: url('./assets/img/hero2.jpeg'); */
     /* background-position: center; */
     max-height: 400px;
     max-width: 100vw;
