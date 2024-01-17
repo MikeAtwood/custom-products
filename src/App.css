@@ -405,10 +405,10 @@ nav.navbar {
   .navbar {
     position: relative;
     font-size: 30px;
-    background-color: #141313 !important;
+    background-color: #0d0d0d !important;
   }
   .navbar.scrolled {
-    background-color: #1a1919 !important;
+    background-color: #0d0d0d !important;
   }
   .navbar .nav-link {
     padding-left: 50px;
