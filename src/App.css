@@ -466,11 +466,7 @@ nav.navbar {
     padding: 20px;
     /* background-color: rgb(33, 32, 32); */
     border-radius: 15px;
-    height: 1000px;
-  }
-
-  .about-container {
-    top: -180px;
+    height: 600px;
   }
 
   .about h1 {
