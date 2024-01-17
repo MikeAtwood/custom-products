@@ -415,6 +415,7 @@ nav.navbar {
   }
   .navbar img {
     padding-left: 15px;
+    width: 50px;
   }
   .custom-icon {
     color: #fff;
