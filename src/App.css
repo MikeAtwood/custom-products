@@ -48,7 +48,7 @@ nav.navbar {
   padding-right: 60px;
 }
 
-.text-glow {
+.navbar .text-glow {
   color: #fff;
   transition: color 0.3s, text-shadow 0.3s;
 }
@@ -64,6 +64,9 @@ nav.navbar {
 
 .more-dropdown {
   color: #fff !important;
+}
+.navbar .nav-link.active {
+  color: #fff;
 }
 
 /*--------------------------------------------------------- HERO ---------------------------------------------------------*/
