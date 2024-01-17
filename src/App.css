@@ -429,6 +429,7 @@ nav.navbar {
     height: auto;
     background-color: #1a1919;
     background-image: url('./assets/img/hero2.jpeg');
+    /* background-position: center; */
     max-height: 800px;
     max-width: 100vw;
   }
@@ -462,10 +463,20 @@ nav.navbar {
     border-radius: 15px;
     height: 1000px;
   }
+
+  .about-container {
+    top: -60px;
+  }
+
   .about h1 {
     font-size: 50px;
     padding: 5px;
-    padding-top: 80px;
+    
+    font-style: normal;
+  }
+
+  .about .about-info {
+    font-weight: light;
   }
   
   .about-img .image-container {
