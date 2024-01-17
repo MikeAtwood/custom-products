@@ -429,7 +429,7 @@ nav.navbar {
     background-color: #1a1919;
     background-image: url('./assets/img/hero2.jpeg');
     /* background-position: center; */
-    max-height: 800px;
+    max-height: 400px;
     max-width: 100vw;
   }
   .hero-container a {
