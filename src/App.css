@@ -443,7 +443,7 @@ nav.navbar {
   }
 
   .hero-img {
-    position: sticky;
+    position: relative;
     top: 0;
     height: 400px;
     background-size: cover;
