@@ -467,12 +467,11 @@ nav.navbar {
     justify-content: center;
     align-items: center;
     /* background-color: rgb(33, 32, 32); */
-    height: 600px;
+    height: 80vh;
     width: 100%;
   }
 
   .about-container {
-    padding-top: 100px;
     width: 90vw;
   }
 
@@ -492,7 +491,7 @@ nav.navbar {
     flex-direction: column;
     align-items: center;
     width: 30vw;
-    height: 40vh;
+    height: 30vh;
   }
   
   .about-img > img {
@@ -537,15 +536,30 @@ nav.navbar {
   /*--------------------------------------------------------- SERVICES ---------------------------------------------------------*/
 
   .services {
+    display: flex;
     position: relative;
-    display: block;
+    justify-content: center;
+    align-items: center;
     font-size: 14px;
-    margin: -40px;
-    height: 100vh;
+    height: 80vh;
+    width: 100vw;
+    background-color: #054736;
   }
 
+  /* .carousel-container {
+    width: 100vw;
+  } */
+
   .text-container {
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    left: auto;
     background-color: #0f6a534c;
+    width: 95vw;
+    left: -50px;
   }
   .services .carousel-img {
     display: none;
@@ -560,8 +574,10 @@ nav.navbar {
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    position: relative;
     align-items: center;
     height: 100vh;
+    background-color: #054736;
   }
   .contact img {
    display: none;
