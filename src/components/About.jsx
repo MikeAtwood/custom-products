@@ -33,7 +33,7 @@ const About = () => {
                     <div className='image-container'>
                         <img src={about3} alt='aboutImageThree'/>
                         <div className='image-text'>
-                            <h2>Giving back to the community</h2>
+                            <h2>The Community</h2>
                             <p> We are deeply committed to giving back to the community we serve. As a public service company specializing in landscaping and street cleaning, we take pride in enhancing the beauty and cleanliness of our city. </p>
                         </div>
                     </div>
