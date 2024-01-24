@@ -457,7 +457,9 @@ nav.navbar {
   /*--------------------------------------------------------- ABOUT ---------------------------------------------------------*/
   .about {
     position: relative;
-    display: contents;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-size: 20px;
     margin: 20px;
     text-align: center;
@@ -467,8 +469,9 @@ nav.navbar {
     justify-content: center;
     align-items: center;
     /* background-color: rgb(33, 32, 32); */
-    height: 80vh;
+    height: auto;
     width: 100%;
+    padding: 20%;
   }
 
   .about-container {
@@ -491,6 +494,7 @@ nav.navbar {
     flex-direction: column;
     align-items: center;
     width: 30vw;
+    max-width: 400px;
     height: auto;
     max-height: 30vh;
   }
@@ -538,11 +542,11 @@ nav.navbar {
 
   .services {
     display: flex;
-    position: relative;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 14px;
-    height: 80vh;
+    height: auto;
     width: 100vw;
     background-color: #054736;
   }
