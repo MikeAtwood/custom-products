@@ -437,7 +437,7 @@ nav.navbar {
   .hero-info {
     position: relative;
     justify-content: center;
-    top: -5px;
+    top: 30px;
     left: auto;
     z-index: 1;
   }
@@ -472,7 +472,8 @@ nav.navbar {
   }
 
   .about-container {
-    padding-top: 180px;
+    padding-top: 100px;
+    width: 90vw;
   }
 
   .about h1 {
@@ -490,7 +491,7 @@ nav.navbar {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 30vw;
     height: 40vh;
   }
   
