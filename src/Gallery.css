@@ -19,6 +19,7 @@ h1 {
     position: relative;
     gap: 2px;
     padding: 5px;
+    background-color: #0d0d0d;
 }
 
 .imageContainer > img {
