@@ -7,8 +7,8 @@ const Gallery = () => {
         <>
             <div className="gallery-main">
                 <h1>Gallery</h1>
-                    <div>
-                        <button>Collections</button>
+                    <div className='GalleryButtons'>
+                        <button>Photos</button>
                         <button>Albums</button>
                     </div>
             </div>

@@ -2,17 +2,36 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background-color: #231e1ee4;
     overflow-y: auto;
     height: 30vh;
 }
 
-.gallery-main button {
+.GalleryButtons {
+    display: flex;
     position: relative;
-    font-size: 16px;
     justify-content: center;
     align-items: center;
 }
+
+.gallery-main button {
+    position: relative;
+    font-size: 14px;
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #ff951b;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: box-shadow 0.3s;
+    padding: 5px;
+    margin: 10px;
+}
+
+/* .gallery-main:hover {
+    transition: ;
+} */
 
 h1 {
     padding-top: 0px;
