@@ -7,7 +7,10 @@ const Gallery = () => {
         <>
             <div className="gallery-main">
                 <h1>Gallery</h1>
-                
+                    <div>
+                        <button>Collections</button>
+                        <button>Albums</button>
+                    </div>
             </div>
             <Collection />
             <Footer />
