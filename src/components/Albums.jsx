@@ -1,13 +1,24 @@
 import '../../src/Gallery.css';
 import { useState } from 'react';
+import dummy1 from '../assets/galleryImg/dummy1.jpeg';
+import dummy2 from '../assets/galleryImg/dummy2.jpeg';
+import dummy3 from '../assets/galleryImg/dummy3.jpeg';
+import dummy4 from '../assets/galleryImg/dummy4.jpeg';
+import dummy5 from '../assets/galleryImg/dummy5.jpeg';
+import dummy6 from '../assets/galleryImg/dummy6.jpeg';
+import dummy7 from '../assets/galleryImg/dummy7.jpeg';
+import dummy8 from '../assets/galleryImg/dummy8.jpeg';
+import dummy9 from '../assets/galleryImg/dummy9.jpeg';
+import dummy10 from '../assets/galleryImg/dummy10.jpeg';
+import dummy11 from '../assets/galleryImg/dummy11.jpeg';
 
 const Albums = () => {
     const [selectedAlbum, setSelectedAlbum] = useState(null)
 
     const albums = [
-        {id: 1, name: "Album 1", photos: ['dummy1.jpeg', 'dummy2.jpeg', 'dummy3.jpeg'] },
-        {id: 1, name: "Album 2", photos: ['dummy4.jpeg', 'dummy5.jpeg', 'dummy6.jpeg'] },
-        {id: 1, name: "Album 3", photos: ['dummy7.jpeg', 'dummy8.jpeg', 'dummy9.jpeg', 'dummy10.jpeg', 'dummy11.jpeg'] },
+        {id: 1, name: "Album 1", photos: [dummy1, dummy2, dummy3] },
+        {id: 1, name: "Album 2", photos: [dummy4, dummy5, dummy6] },
+        {id: 1, name: "Album 3", photos: [dummy7, dummy8, dummy9, dummy10, dummy11] },
     ]
 
     const handleAlbumClick = (album) => {
