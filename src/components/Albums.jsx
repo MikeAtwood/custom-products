@@ -22,12 +22,15 @@ const Albums = () => {
     ]
 
     const handleAlbumClick = (album) => {
-        setSelectedAlbum(album)
+        if (setSelectedAlbum === album) {
+            setSelectedAlbum(null)
+        } else (
+            setSelectedAlbum(album)
+        )
     }
 
     return (
         <div className='album-collection'>
-            <h2>Albums</h2>
             <div className='album-list'>
                 {albums.map((album) => (
                     <div
@@ -35,7 +38,7 @@ const Albums = () => {
                     className={`album-item ${selectedAlbum === album ? 'selected' : ''}`}
                     onClick={() => handleAlbumClick(album)}
                     >
-                        {album.name}
+                        <span className='album-name'>{album.name}</span>
                     </div>
                 ))}
             </div>
