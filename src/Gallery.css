@@ -107,6 +107,10 @@ h1 {
 }
 
 @media (max-width: 768px) {
+    .gallery-main {
+        height: 300px;
+    } 
+
     .gallery-main h1 {
         font-size: 50px;
     }
