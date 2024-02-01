@@ -73,6 +73,39 @@ h1 {
     border-radius: 5px;
 }
 
+.album-list {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 15px;
+}
+
+.album-item {
+    position: relative;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.album-button {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.album-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
 @media (max-width: 768px) {
     .gallery-main h1 {
         font-size: 50px;
