@@ -38,6 +38,7 @@ const Albums = () => {
                     className={`album-item ${selectedAlbum === album ? 'selected' : ''}`}
                     onClick={() => handleAlbumClick(album)}
                     >
+                        <img src={album.photos[0]} alt={album.name} className='album-button' />
                         <span className='album-name'>{album.name}</span>
                     </div>
                 ))}

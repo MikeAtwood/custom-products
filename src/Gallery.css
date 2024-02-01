@@ -90,22 +90,40 @@ h1 {
         height: auto;
         
     }
-
-    .album-list {
-        display: flex;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        font-size: 26px;
-    }
-
+    
     .album-collection {
         background-color: #0d0d0d;
     }
 
-    .album-name {
+    .album-list {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        font-size: 15px;
+    }
+
+    .album-item {
+        position: relative;
         margin: 10px;
+        cursor: pointer;
+    }
+
+    .album-button {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .album-name {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
         font-weight: bold;
+        text-align: center;
     }
 }
