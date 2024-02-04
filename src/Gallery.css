@@ -162,4 +162,20 @@ h1 {
         font-weight: bold;
         text-align: center;
     }
+
+    .photo-list {
+        display: grid;
+        position: relative;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 10px;
+    }
+
+    .photo-list img {
+        width: 140px;
+        height: auto;
+        cursor: pointer;
+        position: relative;
+        flex: 1;
+        border-radius: 5px;
+    }
 }
