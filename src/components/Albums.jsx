@@ -45,7 +45,6 @@ const Albums = () => {
             </div>
             {selectedAlbum && (
                 <div className='photo-list'>
-                    <h3>{selectedAlbum.name}</h3>
                     {selectedAlbum.photos.map((photo) => (
                         <img key={photo} src={photo} alt={photo} />
                     ))}
