@@ -10,7 +10,7 @@ const Hero = () => {
             <img className='hero-img' src={heroImg} />
                 <div className='hero-info'>
                     <h1 className='animate__animated animate__backInDown'>Custom Products & Services</h1>
-                    <p className='animate__animated animate__backInDown'>Serving the greater Minneapolis area since 19XX</p>
+                    <p className='animate__animated animate__backInDown'>Serving The Greater Minneapolis Area since 19XX</p>
                     <a href="mailto:info@customproductsandservices.com" className='email-button'>Email Us!</a>
                 </div>
         </section>
