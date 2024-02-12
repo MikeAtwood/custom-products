@@ -6,20 +6,30 @@ import Albums from '../components/Albums'
 
 const Gallery = () => {
     const [ showPhotos, setShowPhotos ] = useState(true);
+    const [ showAlbums, setShowAlbums ] = useState(false)
 
-    const handleButtonClick = () => {
-        setShowPhotos(!showPhotos)
+    const handlePhotosClick = () => {
+        setShowPhotos(true)
+        setShowAlbums(false)
     }
+    
+    const handleAlbumsClick = () => {
+        setShowPhotos(false)
+        setShowAlbums(true)
+    }
+
+
     return (
         <>
             <div className="gallery-main">
                 <h1>Gallery</h1>
                     <div className='GalleryButtons'>
-                        <button onClick={handleButtonClick}>Photos</button>
-                        <button onClick={handleButtonClick}>Albums</button>
+                        <button onClick={handlePhotosClick}>Photos</button>
+                        <button onClick={handleAlbumsClick}>Albums</button>
                     </div>
                 </div>
-            {showPhotos ? <Collection /> : <Albums />}
+            {showPhotos && <Collection /> }
+            {showAlbums && <Albums /> }
             <Footer />
         </>
     )
