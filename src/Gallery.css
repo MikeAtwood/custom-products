@@ -33,6 +33,10 @@
     transition: ;
 } */
 
+.gallery-main h1 {
+    font-size: 5vh;
+}
+
 h1 {
     padding-top: 0px;
 }
