@@ -566,7 +566,7 @@ nav.navbar {
     font-size: 14px;
     height: auto;
     width: 100vw;
-    background-color: rgba(17, 86, 75, 0.6);
+    background-color: rgba(17, 86, 75, 0.5);
     backdrop-filter: blur(2px);
   }
 
@@ -602,7 +602,7 @@ nav.navbar {
     align-items: center;
     height: 100vh;
     /* background-color: #054736; */
-    background-color: rgba(17, 86, 75, 0.6);
+    background-color: rgba(17, 86, 75, 0.5);
     backdrop-filter: blur(2px);
   }
   .contact img {
