@@ -485,7 +485,7 @@ nav.navbar {
     justify-content: center;
     align-items: center;
     /* background-color: rgb(33, 32, 32); */
-    background-color: rgba(17, 86, 75, 0.6);
+    background-color: rgba(17, 86, 75, 0.5);
     backdrop-filter: blur(2px);
     height: auto;
     width: 100%;
