@@ -325,12 +325,17 @@ nav.navbar {
 /*--------------------------------------------------------- CONTACT ---------------------------------------------------------*/
 .contact {
   display: flex;
-  height: 500px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   max-height: 600px;
   padding: 60px;
   font-size: 20px;
-  background: linear-gradient(to bottom,  #054736, #121212);
+  /* background: linear-gradient(to bottom,  #054736, #121212); */
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(2px);
   width: 100%;
+  margin: 0 auto;
 }
 
 .left-content {
