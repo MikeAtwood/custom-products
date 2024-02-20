@@ -1,4 +1,4 @@
-import { Carousel } from "react-responsive-carousel";
+// import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 // import Summer from "../assets/img/grass.jpeg";
 // import Fall from "../assets/img/leaves.jpeg";
