@@ -1,15 +1,15 @@
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Summer from "../assets/img/grass.jpeg";
-import Fall from "../assets/img/leaves.jpeg";
-import Winter from "../assets/img/snow.jpeg";
-import Spring from "../assets/img/spring.jpeg";
+// import Summer from "../assets/img/grass.jpeg";
+// import Fall from "../assets/img/leaves.jpeg";
+// import Winter from "../assets/img/snow.jpeg";
+// import Spring from "../assets/img/spring.jpeg";
 import '../App.css'
 
 const Services = () => {
   return (
     <div className="services" id="services">
-      <div className="carousel-container">
+      {/* <div className="carousel-container">
         <Carousel className="carousel-img" interval={10000} infiniteLoop autoPlay>
           <div>
             <img src={Summer} alt="Summer Grass" />
@@ -23,7 +23,7 @@ const Services = () => {
           <div>
             <img src={Spring} alt="Spring Time" />
           </div>
-        </Carousel>
+        </Carousel> */}
         <div className="text-container">
           <div className="main-service">
             <h1>Services</h1>
@@ -55,7 +55,7 @@ const Services = () => {
           
         </div>
       </div>
-    </div>
+    // </div>
   );
 };
 
