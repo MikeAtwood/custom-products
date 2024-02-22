@@ -157,8 +157,10 @@ nav.navbar {
   justify-content: center;
   
   padding: 90px;
-  background-color: #054736;
+  /* background-color: #054736; */
   /* background-color: #231e1ee4; */
+  background-color: rgba(17, 86, 75, 0.5);
+  backdrop-filter: blur(2px);
 }
 .left-column {
   position: relative;
