@@ -33,15 +33,13 @@ const Services = () => {
             </h2>
             <ul>
               <li>Snow Removal and Hauling</li>
-              <li>Sidewalk Snow Removal With Specialized Equipment</li>
+              <li>Garden Planting and Maintenance</li>
               <li>De-icing</li>
               <li>Weekly Mowing</li>
               <li>Weed and Pest Control</li>
               <li>Landscape Installation</li>
               <li>Pruning</li>
               <li>Aeration</li>
-            </ul>
-            <ul>
               <li>Sod and Seed</li>
               <li>Holiday Lighting and Decorations</li>
               <li>Graffiti Abatement</li>
@@ -49,7 +47,7 @@ const Services = () => {
               <li>Annual and Perennial Planting</li>
               <li>Lot Sweeping</li>
               <li>Organic Gardens</li>
-              <li>Garden Planting and Maintenance</li>
+              <li>Sidewalk Snow Removal With Specialized Equipment</li>
             </ul>
           </div>
           
