@@ -156,7 +156,7 @@ nav.navbar {
   position: relative;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 95vw;
   padding: 90px;
   margin: 0 auto;
   /* background-color: #054736; */
@@ -164,6 +164,11 @@ nav.navbar {
   background-color: rgba(17, 86, 75, 0.5);
   backdrop-filter: blur(2px);
 }
+
+.about {
+  width: 86vw;
+} 
+
 .left-column {
   position: relative;
   bottom: 80px;
@@ -253,7 +258,7 @@ nav.navbar {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-end;
-  width: 90%;
+  width: 95vw;
   margin: 0 auto;
   /* background-color: #054736; */
   /* background-color: #231e1ee4; */
@@ -288,6 +293,7 @@ nav.navbar {
   padding: 25px;
   margin: 60px;
   border-radius: 15px;
+  width: 85vw;
 }
 
 .main-service {
@@ -298,8 +304,8 @@ nav.navbar {
 .text-container ul {
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 25px;
 }
 
 .carousel {
@@ -346,7 +352,7 @@ nav.navbar {
   backdrop-filter: blur(2px);
   width: 100%;
   margin: 0 auto;
-  width: 90%;
+  width: 95vw;
   margin: 0 auto;
   /* background-color: #054736; */
   /* background-color: #231e1ee4; */
