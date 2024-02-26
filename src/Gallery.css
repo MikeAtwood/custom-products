@@ -94,8 +94,9 @@ h1 {
 }
 
 .album-button {
-    width: 200px;
-    height: 200px;
+    position: relative;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 5px;
 }
@@ -108,7 +109,10 @@ h1 {
     color: white;
     font-weight: bold;
     text-align: center;
+    font-size: 19px;
+    background-color: rgba(0, 0, 0, 0.6);
 }
+
 
 @media (max-width: 768px) {
     .gallery-main {
