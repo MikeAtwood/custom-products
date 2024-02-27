@@ -136,13 +136,13 @@ h1 {
     flex-wrap: wrap;
     position: relative;
     justify-content: center;
-    flex-direction: row;
     margin: 10px;
 }
 
 .photo-list img {
-    width: 140px;
-    height: auto;
+    /* width: 140px; */
+    width: calc(33.33% - 10px);
+    height: 350px;
     cursor: pointer;
     position: relative;
     flex: 1;
