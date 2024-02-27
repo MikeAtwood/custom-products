@@ -137,6 +137,7 @@ h1 {
     position: relative;
     justify-content: center;
     flex-direction: row;
+    margin: 10px;
 }
 
 .photo-list img {
