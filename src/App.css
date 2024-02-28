@@ -362,7 +362,11 @@ nav.navbar {
 
 .left-content {
   flex: 1;
-  margin-left: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
 }
 
 .right-content {

@@ -131,6 +131,13 @@ h1 {
     font-size: 19px;
 }
 
+.selected {
+    background-color: #f0f0f0;
+    border-color: #333;
+    font-weight: bold;
+
+}
+
 .photo-list {
     display: flex;
     flex-wrap: wrap;
