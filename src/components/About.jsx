@@ -20,14 +20,14 @@ const About = () => {
                         <img src={about1} alt='aboutImageOne'/>
                         <div className='image-text'>
                             <h2>Where we work</h2>
-                            <p> Based in the greater Minneapolis area, leveraging our expertise and serving clients within this vibrant community</p>
+                            <p> Serving Minneapolis, including St. Louis Park and Brooklyn Park, we bring our expertise to enhance the beauty of your community</p>
                         </div>
                     </div>
                     <div className='image-container'>
                         <img src={about2} alt='aboutImageTwo'/>
                         <div className='image-text'>
-                            <h2>something something</h2>
-                            <p>asdfasdfasdfasdf asdffdsa fdssf aasdffdsaa aehkhlkgh asdfa sdfasdfasdf asdffdsa fdssdf aasdffdsaa aehkhlkgh asdfasdfa sd fasdf asdffdsa fdssdf aasdffdsaa aehkhlkgh</p>
+                            <h2>Transform Your Space</h2>
+                            <p>Experience the difference with our export landscaping and cleanup services. From revitalizing outdoor areas to maintaining pristine enviroments, let us transform your space into a place you'll love to call home.</p>
                         </div>
                     </div>
                     <div className='image-container'>
