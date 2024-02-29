@@ -13,11 +13,12 @@ const Contact = () => {
 
                 <p className='address-container'></p>
                 
-                    <p>
+                    <a href="geo:44.9539943,-93.2260099?q=2648 34th Ave South
+                        Minneapolis, MN 55418">
                         Location:
                         2648 34th Ave South
                         Minneapolis, MN 55418
-                    </p>
+                    </a>
                     <p>
                         Hours:
                         Mon - Fri: 9AM - 5PM
@@ -26,7 +27,8 @@ const Contact = () => {
                     </p>
             </div>
             <div className='right-content'>
-                <img src={locationImg} />
+                <img href="geo:44.9539943,-93.2260099?q=2648 34th Ave South
+                        Minneapolis, MN 55418"src={locationImg} />
             </div>
            
         </section>
