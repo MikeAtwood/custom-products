@@ -13,10 +13,9 @@ const Contact = () => {
 
                 <p className='address-container'></p>
                 
-                    <a href="geo:44.9539943,-93.2260099?q=2648 34th Ave S, Minneapolis, MN 55406">
-                        Location:
-                        2648 34th Ave S, Minneapolis, MN 55406
-                    </a>
+                <a href="https://maps.google.com/maps?q=2648+34th+Ave+S,+Minneapolis,+MN+55406">
+                    Location: 2648 34th Ave S, Minneapolis, MN 55406
+                </a>
                     <p>
                         Hours:
                         Mon - Fri: 9AM - 5PM
