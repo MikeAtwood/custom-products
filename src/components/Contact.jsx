@@ -13,7 +13,7 @@ const Contact = () => {
 
                 <p className='address-container'></p>
                 
-                <a href="https://maps.google.com/maps?q=2648+34th+Ave+S,+Minneapolis,+MN+55406">
+                <a href="https://maps.google.com/maps?q=2648+34th+Ave+S,+Minneapolis,+MN+55406" target="_blank" rel="noreferrer noopener">
                     Location: 2648 34th Ave S, Minneapolis, MN 55406
                 </a>
                     <p>
